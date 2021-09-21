@@ -1,0 +1,16 @@
+PODS:
+  - MUIKit (0.1.4)
+
+DEPENDENCIES:
+  - MUIKit (from `~/Documents/district-traveloka/packages/apps/ios/Traveloka/Modules/MUIKit`)
+
+EXTERNAL SOURCES:
+  MUIKit:
+    :path: "~/Documents/district-traveloka/packages/apps/ios/Traveloka/Modules/MUIKit"
+
+SPEC CHECKSUMS:
+  MUIKit: 2afd537d0b3ab8f92e21ac212d36bb074f9e7b9c
+
+PODFILE CHECKSUM: 0cfcb182701cfa05dc08bb4d68afd7342da7a92f
+
+COCOAPODS: 1.11.0

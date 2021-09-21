@@ -1,0 +1,1574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04661B718482E19DF57E30BCE6312077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C90BE84DBB9E4E7AC1E7115643F484 /* Assets.xcassets */; };
+		0A2036E4D3B02EAAAD26DD5EAA05AC67 /* MUIPopUpTemplatedView+ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D271294FD20BC5AB84B4DAA9C7B112 /* MUIPopUpTemplatedView+ContentView.swift */; };
+		0D66B06AAE4BEC13674065D86CBD4268 /* MUICheckBoxSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B82521D2960B6DA722E819B396F4DB /* MUICheckBoxSize.swift */; };
+		0E3423B82E92FEF5FE38F45120093E45 /* MUINotificationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D29E9E9AFEB964688723ADD5C49DF /* MUINotificationMessage.swift */; };
+		14986824D56CDF64B31B3EBB69D2BD94 /* MUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F123EB9AD3F553ACA7CC25AB0F1B5064 /* MUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1525C1675D607274C54310707ABC6903 /* MUISwipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A196671A9A344C8E46C7553675943D /* MUISwipeButton.swift */; };
+		16F543F6AFB3DA26B101BC83541EE5FF /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8BE01EFE285D17747318A2434E8A3F63 /* vi.lproj */; };
+		1A41B9ACFB2B12BEB862B55D0BF5EA4D /* MUICalendarHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274B4AEEED756542F217672FA7EA6C9 /* MUICalendarHorizontalFlowLayout.swift */; };
+		1A8C3AEE590A9EBE0652418F636E3308 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0DB2260F095EF2E85303854CF45D4 /* UIView.swift */; };
+		1B3934563D5AD25AD45296897BE6984F /* MUIPopUpViewController+TransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43987C3B46DEA7CE548BF37DBAB12A2B /* MUIPopUpViewController+TransitioningDelegate.swift */; };
+		1D33D080939B9A55EDD98CD4E12ED50C /* MUICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FE871D209CDEA805CDD80B31C36118 /* MUICheckBox.swift */; };
+		1F3FCF6D86462CE5B714E7ACD979E44D /* MUIBaseCalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90504C6EE39FA4BA65FFA6A7258E728 /* MUIBaseCalendarCollectionViewCell.swift */; };
+		1FD0A400571057CAD0DCF97F0AC71C3E /* MUINewIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC15B6E68EF3CA7EEAB1D29AC136A1 /* MUINewIndicator.swift */; };
+		1FDAE085C09E1C328B2FB52ECABF5324 /* MUITextButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667E45BEF6D4CA10031DCF197459830 /* MUITextButtonStyle.swift */; };
+		21AF41C2C4F7DC3B282D72F895208106 /* Pods-TrainSetup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7DE00B4BF08830BC08B223868A84AF /* Pods-TrainSetup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22480D92AB7EB25A4695E74B734B5A92 /* MUISharedToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608811B03A60F8A7BB46B0DD9B8A616F /* MUISharedToken.swift */; };
+		25D7F466B8DDE47DE9CFE4F6F4AF12B0 /* MUIVerticalCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B1A2FF2F00F8E44725C0A5D098F2FC /* MUIVerticalCircleView.swift */; };
+		27A8D8DA2CF5A5C9615EDEC28B7FB82E /* MUIRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F600F9BFBDFF9D03433C542BD3C4052 /* MUIRadioButton.swift */; };
+		2B2EF28CECC39AFDB2239DB2EC84170B /* MUITimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B5FB01285D6C141B5D13EF517AF61 /* MUITimer.swift */; };
+		2CD309303839AB8E19BDC9C5E212EAD2 /* MUICalendarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF816512D54E5A3E2954357C50221C /* MUICalendarHeader.swift */; };
+		2F2F6F3727621D7DAE45736B09042790 /* MUICoachMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FD0A4C9EB806945FF6289C9977A7B /* MUICoachMarkViewController.swift */; };
+		32554E0ED1AF26628B4E44B824E5839A /* MUIDateInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A985B46A1A76FDD76F676E27C67F085 /* MUIDateInput.swift */; };
+		3394342479A5B007642EEF96BB58F104 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C4C33D5F7C6ED0404A422D2CC0AE6210 /* id.lproj */; };
+		34B24510B24D7C338AFFFFBB4AA49587 /* MUICalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675A9707FBF2AF3227EB368C80DD339 /* MUICalendarPickerViewController.swift */; };
+		353FC0DB59ED9814C217FC70DF4DB0ED /* MUICalendarSectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46C1EA5B863782DF6E66D4E9BA17AE6 /* MUICalendarSectionFooter.swift */; };
+		3B6479B040D9B3DDA55332A7FA9A4275 /* MUISwipeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E2CB32E1BA2EDDCBC7909A0B546FB /* MUISwipeButtonStyle.swift */; };
+		3B86377F7852214ABA4B72DD8B0566FA /* MUIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71128B68E4BC7EE675A8F2DEB1B5C6 /* MUIStepper.swift */; };
+		3BC9EE4B2C70DC37F444119FE3FA5287 /* MUITrayViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C3D30FE5A92308CC97E785CBC6437 /* MUITrayViewControllerTransitioningDelegate.swift */; };
+		3F29D2D55EADB32677F164B69879EFB4 /* MUIVerticalProgressBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817AEFA06799F5A3567A6DF4D8CCF387 /* MUIVerticalProgressBottomView.swift */; };
+		441EA40C7426E7D49D805EDE72B24A21 /* MUIPopUpSectionedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838105386C52997E7F93F2D8BD0FFB6E /* MUIPopUpSectionedView.swift */; };
+		467C29A6C76B4562A5283D5A31E11C05 /* MUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB8DF3D37F92D00EAA605F6F7DD11 /* MUIKit-dummy.m */; };
+		4A37C58D79E23106F519EAD0B11D9D72 /* MUITrayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10AF4B4731645D98C7ED5EB78715DB /* MUITrayPresentationController.swift */; };
+		4C9EA69937B7AD7F9AD53C4DB0272487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		4D21145C73B8A5A2180E2CE8A0083979 /* MUITraySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2ED70E20238795F62259717858C43 /* MUITraySelectionViewController.swift */; };
+		4ECE78D04228EB1A9740560D489D305C /* MUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E01707217F460034B90B50497D568 /* MUIFont.swift */; };
+		4F5C0859EEE1A524B2CC5F97E838FAF0 /* MUIToolTipSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AF19C3B64BDEC48D327CC1401E816 /* MUIToolTipSize.swift */; };
+		51A60547F7D80F014E355B68389C4FA1 /* MUIFontSizeScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806BB9BEFEEAE515F1C429C51AB75A9 /* MUIFontSizeScheme.swift */; };
+		55CCAB58DADC9116BE365999F6172288 /* MUINotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B34161FE9EAD7FFE37B2BEB856126 /* MUINotificationView.swift */; };
+		55DE02A1A88030F902B8EEA26DAAEF91 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E58A7438CF25687F8A626B92E6871 /* String.swift */; };
+		56454BAC7DF8E6877D4616406C83A9F8 /* MUIFontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ADC86AEAC2173F28AC900001FDB7B1 /* MUIFontWeight.swift */; };
+		57F661227AD50BF09B699D44B1176393 /* MUILineDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF416AC9EA1679CC1489622DAA38AA /* MUILineDivider.swift */; };
+		5A568DA5A67E2D1CAE1685ABBFC4EF8F /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14136B75C56A80C598BD6F6079E83A11 /* UIImageView+Extension.swift */; };
+		5ADAFEE857B6F3291AB8E88CC38A0AEC /* MUIInfoBoxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC4EA5C754C3FB4B907D0A4421705F /* MUIInfoBoxType.swift */; };
+		5B6D88D2AD339701B9ED5FF42D2A6DA0 /* MUIInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA605DEA1D6F9AA1A3B55DD49C0E0B8 /* MUIInput.swift */; };
+		5CF108A859345C54172707B7C629B6A8 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A35956C361CD2E6ACD7E75368DBF81 /* UIFont.swift */; };
+		5F10D2F539BB638539BC3FC2912230CD /* MUIToolTipStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AFA4104016A6AB61C38CC162EA2A14 /* MUIToolTipStyle.swift */; };
+		60ECF91724B44E087213F612801D5B74 /* MUISpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EB717610C75C14EF277D51B95A20DE /* MUISpinnerViewController.swift */; };
+		622B3A36DEB61125BEFFA474CAB9737A /* MUIRadioButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0B84281D6DAFB38CFE459C81D7119 /* MUIRadioButtonSize.swift */; };
+		67D2D971C25B9D02FCB2888E215150D2 /* MUIAutoResizingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73348F16F20DB87B049EC0165D764DA6 /* MUIAutoResizingTableView.swift */; };
+		68A581AF7FDBCF65A08A8AD3378A1F9E /* MUICalendarSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64D143087EC10F11CA353B5396DA02 /* MUICalendarSectionHeader.swift */; };
+		69953F4E87B3524FAF1117D8B3EE428D /* MUIPopUpBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980F936C8ABE0F49F779848072776C77 /* MUIPopUpBaseView.swift */; };
+		6ABBC9DE7CEB261306A0A8C087EA04D4 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F61B8803CD47AD2E040D73CF4467C4 /* Bundle.swift */; };
+		6BF42A9CD8096E1ADB8F88BA3BA1E9D8 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A614B85656C0D4222EE22D720F6FD60 /* Base.lproj */; };
+		6C1C3DC7FA6AC5BB70CC63117B500BAE /* MUITrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42FB41A0819A22F46446AC21B66EAC /* MUITrayViewController.swift */; };
+		6FCA9CD24B40D7EEE0BEEBF8001FD667 /* MUISelectableViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C35FAE472ADE42C10A369918C0E76 /* MUISelectableViewSize.swift */; };
+		708F02E3BD975ED50A978973362B636E /* MUIHolidayDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774873C3CFF0FCD46F679B692B62CF31 /* MUIHolidayDate.swift */; };
+		72F145A8B8E4BCB65C3D85974DC95F2E /* MUIButtonIconProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A33FBCB2E767743474BC27FF1DB91 /* MUIButtonIconProtocol.swift */; };
+		73221AFE99DBF352468A66EAF18C4D7B /* MUIElevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265EB96A48F704A8C554878A5EDCCDFD /* MUIElevation.swift */; };
+		73BD02951377765C602679BB291545C0 /* MUICalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40A3A423FA856F87C4C5E066C9DD91 /* MUICalendarViewController.swift */; };
+		74D2CF5211EEF1118EC09E00DE01A96F /* MUIBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F80D4A1C8AB5AF7D2108DE9B3C954 /* MUIBadge.swift */; };
+		74ED544A79F4C2C97C0E3F6D9A5552B1 /* MUISelectableViewFunctionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD43C36F5F1BC69CAB0ADE64A5D1B96 /* MUISelectableViewFunctionProtocol.swift */; };
+		77D0C9DCDBBFAEC1792F70FB84A07F13 /* MUITrayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BCFAC261EBEA352FA4AA6B15021943 /* MUITrayHeaderView.swift */; };
+		78E8D7770B53232C136E51B870403C1D /* MUITraySelectionCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DC4F1D7C5392E59A26A0EBA0E82C51 /* MUITraySelectionCellData.swift */; };
+		7A421BAB690FC2409E36872AB3D78314 /* MUIVerticalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD37A9B9CA79792841C2B508823D1E2 /* MUIVerticalProgressView.swift */; };
+		7B00DF9A7C0919E732D834ED0E527E33 /* MUILoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79A9633DD3F92876488ED548840F46 /* MUILoadingIndicator.swift */; };
+		7B0F77D2826526E728EAB9E07758D090 /* MUIPopUpViewControllers+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD9C51C1993321355BAFE65B71D7F93 /* MUIPopUpViewControllers+Helpers.swift */; };
+		7B4DC5C4EEE6DF8063352CC761EB185B /* MUIPopUpTemplatedView+FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA250A903C4BC7F4CBFBF0E78A933CED /* MUIPopUpTemplatedView+FooterView.swift */; };
+		7B8D0702812D3139F2798EED5A785307 /* MUISpacingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C77F669105FDC5F3838365E1BEAE4 /* MUISpacingScheme.swift */; };
+		7BA549B1B8D4EFAB909AC8F7A31B68EA /* MUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76B239FC8D8613E5CF183443F1ED32 /* MUIColor.swift */; };
+		7DA9E1D0E6DB789CDF9157CCAD41E516 /* MUIInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09004012512A0ED775E0CBC78FC4717E /* MUIInfoBox.swift */; };
+		7DED93AB6575AA71F973C39DC09EE659 /* MUIPopUpTemplatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A9193A299B9F6E357E354A06AF0BC /* MUIPopUpTemplatedView.swift */; };
+		801D6A40758C99008F2D834ED494B400 /* MUISwipeButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A92B00B1D97B40149401410ABAB02F /* MUISwipeButtonSize.swift */; };
+		8079772B618B045EE8D363A10CB579E3 /* MUISwipeButtonVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13DAE6AFAEC79D9712FFEF0D4CC100 /* MUISwipeButtonVariant.swift */; };
+		8426368110D95E61C929EBC39CA0BD49 /* MUITrayDraggableIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593327304AD821F54CDA7BFF16CE9BC /* MUITrayDraggableIndicatorView.swift */; };
+		85451BEC4999A19CA91C277905A68AEC /* MUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28554F382DE3D3D821A8157D9FEF1C4B /* MUIKit.swift */; };
+		856A2D9689905C25C4F0D9806F66C21C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DECF2D65A30EBB3BD166BB16ED79A4 /* UIButton.swift */; };
+		86C8DAF29BFC814F6AA558BD899D8BD9 /* MUIBorderWidthScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601F3795912918F6EEF6F01F208EC5C /* MUIBorderWidthScheme.swift */; };
+		8924C949231922957B7CB00EBC0B0879 /* MUISwipeButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD755A05CD970B745F0F016D221CFA /* MUISwipeButtonAppearance.swift */; };
+		8DE3C03A4969BB87FEB65F363A549530 /* MUIBorderScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA7A6CD7771A980A7A1BE4E1AF382 /* MUIBorderScheme.swift */; };
+		8E726F3DBCEB5F1041498314984024FC /* MUIBorderRadiusScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266DC73BD41384A9B18F8CC92F8B6AE /* MUIBorderRadiusScheme.swift */; };
+		9061436C9C06A00E6C205D89E6A93E1C /* MUIBaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1399573784807C1345A4E497679501 /* MUIBaseAnimator.swift */; };
+		92A6B6F543D6DD53719C83EC2DB4F08F /* MUITypographyScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63E37E2D03C0015EFFD3049B121ADAA /* MUITypographyScheme.swift */; };
+		92A7F97BCC669B430CC669B3584616E6 /* MUITraySelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801E9CDC0067F5449B493BBEC40EEED /* MUITraySelectionDataSource.swift */; };
+		943AF2E41FF59AB277EA793B23E9B98C /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED30B8C4D4DEA76C43AE4C432005FB3 /* CALayer.swift */; };
+		9479CAD077C2A3D19120C0540A87EA90 /* MUISearchBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B830D191962AE3935A0D156B4D6688DC /* MUISearchBox.swift */; };
+		9777930F332CA5FB0672B4DE2FFE9699 /* MUINotificationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD058F3305EA0A76E5F31BC4C8A08D0 /* MUINotificationPresenter.swift */; };
+		991F985DA5DC5D37A5C2A8D8B4A6A009 /* MUITrayActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938F76F02A63F976F49FF4F149A516C /* MUITrayActionButton.swift */; };
+		998178882BA4B7ECA27AEB3C2BE0C731 /* MUIHorizontalProgressViewTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB53D22376D28665B4F842EACDFD4D /* MUIHorizontalProgressViewTheme.swift */; };
+		9B8F3DA6AF01907BBA3E2D05FED00418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9BB4BD13552F95F602CD4376C7196591 /* MUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EF99EEE735F4E9018E5C9CDA93889 /* MUISlider.swift */; };
+		A6E5D4C2F010D4F33533C5A112A16F8D /* MUIPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766D6765E901D5F3D8AD97358D52BBB /* MUIPopUpViewController.swift */; };
+		A7EA37C147AE17F485DAEDE039F3315B /* MUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C4F24CB92ABBA7D4785DA14B653F3F /* MUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFA94B7A24ABA5E81A9B5A9D95D4002 /* MUINotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531901D7790873F437A4D16B3E6A2622 /* MUINotification.swift */; };
+		ACB4AF17921091BAFBB4D15145B5CCF2 /* MUINotificationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688DCCCDCD69221EB088696A13B2C6C /* MUINotificationConfig.swift */; };
+		AD1912B4E07CDFC9EDD931F6BF0F4803 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 28EB05A89B72279674190F84DABE0D33 /* en.lproj */; };
+		AD6D9EC11A34536FAB128FDAD7A7FFC2 /* MUIPopUpViewController+AnimationTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1016FDD3E6794E0339E6E819C3DC16B5 /* MUIPopUpViewController+AnimationTransitioning.swift */; };
+		AFB211DDA960A5B3F53C5C28401B8E4C /* MUITypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB5C035B4AEC35899FF39F39E43AB4 /* MUITypography.swift */; };
+		B174E2F8C337E84BDB4D62772EB5F28E /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3E50F15B6762B5D2209963E0BB935D9F /* ms.lproj */; };
+		B476C6D4D56D4481BD5406514676F2EB /* MUICalendarPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559673FA0FF48CF1FABF7F926B56184 /* MUICalendarPickerViewModel.swift */; };
+		B6B78C3A49C33F85376A1E739351142D /* MUIButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C4EB1158E63FEBFD557E4BBEC6B0B /* MUIButtonStyle.swift */; };
+		BC5DEC30794B752698C1878CA9977914 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4356D868E0AE6F127BE47917925100B8 /* th.lproj */; };
+		BECC01D1E8723D105C7D0CEC28D6833B /* MUITraySelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667887B909D4CB9C4C99DA8F52E5CC72 /* MUITraySelectionTableViewCell.swift */; };
+		BF01425BF0138ECCF86F34D5694D1782 /* MUIInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163076A745774BFE8671E655D2BFA8AA /* MUIInputStyle.swift */; };
+		BFA5E632EE8D24A0698A40225D3F3B7A /* MUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F57B6A69603CCC1EFD3B89226168C /* MUISwitch.swift */; };
+		C236CDD464C66FD4AA243508EFF6AA00 /* MUICollapsible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243547668B22D2DC6E49B0C1F4A69BE8 /* MUICollapsible.swift */; };
+		C275B7BA037986137D3588C30FAA9D21 /* MUIToolTipArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2F361F86AFF837635D3E21B3382A3 /* MUIToolTipArrowView.swift */; };
+		C49FF13509F480DB16BF83B6069912CF /* MUITrayAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEA9E8E79CA2E792C04E960A60E09 /* MUITrayAnimator.swift */; };
+		C56F2C1DD434DD6BC686B0FD2BC61A8B /* MUIVerticalStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAAC578924B3253D1E481BEDD98068 /* MUIVerticalStepView.swift */; };
+		C6ACA9982CA84F8FDD72F557CEE659CB /* MUIElevationScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B66B0183FA0D98D144DFC773F2960C /* MUIElevationScheme.swift */; };
+		C6C71762AFF7FDF5932430E1700FF7B5 /* MUITrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCF77BBBF3B517BF650A3E4397EF16 /* MUITrayView.swift */; };
+		C73A2B45F03B5869BACD059954D8FCB5 /* MUIToolTipTapToDismissBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7F588B9F9E8ADD2ADBA4EF8EC646D /* MUIToolTipTapToDismissBehavior.swift */; };
+		C8BB8E9429C2CB10FEA1AEA5BE7EB1C9 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD027E2234A8E229A79292F47E9E3D /* NSAttributedString.swift */; };
+		C984192E0C098F61217BCDF45CD9D56F /* MUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD8B366688BDCC810B4A6F39A709FF /* MUIButton.swift */; };
+		C9DB406679E70EB2663D757B3F9D6B24 /* MUITextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10BF527B51AB4F141D0CC7A4B48EA8 /* MUITextButton.swift */; };
+		CAE288FFEAA8EBCC422F1A1BCDB02CC0 /* MUIRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D1FB987B295E00A7B6B3D98D30B190 /* MUIRangeSlider.swift */; };
+		CCD0CFA88BB905738366071AFDDF035D /* MUIDraggableIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F52029BA7DF601816E7CC41C7C691F1 /* MUIDraggableIndicator.swift */; };
+		CF4834469933C35E52FD6DC67839D743 /* MUIOpacityScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1198C25577868284D64D429D6D4B8 /* MUIOpacityScheme.swift */; };
+		D046F30EF3FB67C02B887909E458DBC0 /* MUIHorizontalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F6A8EE32D0BB48C7B061EFFF814D /* MUIHorizontalProgressView.swift */; };
+		D0F52E3FBA02BB8F0D0321646D7B7FA5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8F8C8D95C3A1CEC88707186984302 /* UIColor.swift */; };
+		D1F99EAE87BB33E8FAAAC8DB1F10043B /* MUIColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A865C79512607B46022ABC20C8FE1929 /* MUIColorScheme.swift */; };
+		D2FE466ED70603787C0E4A583A29D0B0 /* MUILineDividerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B15024C08D4F4FA5A40DA91DFC7D14 /* MUILineDividerType.swift */; };
+		D82A11D777AEEE12F095757085F86539 /* MUICellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D7950ECD7566C5935DFA0EA49933EE /* MUICellView.swift */; };
+		D91D7B7F1AE8D4123260BE9814A05C4E /* MUIToolTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF64E6472123F84F663E1218192A415 /* MUIToolTipViewController.swift */; };
+		DA7BC8DD056ADFA88E242CA1C9510B6C /* MUICoachMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF4ECA19563000746E991F00737BAF /* MUICoachMark.swift */; };
+		DC822E0FE5DBF2EB1B4192313AD4D3CB /* MUIKit-MUIKitResources in Resources */ = {isa = PBXBuildFile; fileRef = 34F108DF3DB0AA6E8E0A5B47B6D50731 /* MUIKit-MUIKitResources */; };
+		DD45B687A964786416AF4B1AEE2EC22C /* MUICalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A57A796D967DEB3FD15CE9DE949F2 /* MUICalendarCollectionViewCell.swift */; };
+		DE3F0B42C9104C9804BA5AD89E26C63B /* MUIFontScaleScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF70C37129DE7D05936A4D7F615BA1A /* MUIFontScaleScheme.swift */; };
+		DE4A137FAD861C70094CD5E48051EA2D /* MUITrayViewControllerPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB46037A8FA0454642A1F9A4E244501 /* MUITrayViewControllerPresentationDelegate.swift */; };
+		DF746C49E0138D718DA2FE1AC4878A9C /* MUIPopUpTemplatedView+HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB2FB9CDA2110835BDB2886B2373EA /* MUIPopUpTemplatedView+HeaderView.swift */; };
+		E01D0E2DA307909BD4DD4E0D4AF90BC8 /* MUIButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7E9E8AE6ECAF41A46F88D5D86574A /* MUIButtonSize.swift */; };
+		E0B87DE7718D3E4E9DD7275B6C0D9C33 /* MUITokenScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5565F63526A917B412D60F951021467F /* MUITokenScheme.swift */; };
+		E47BABB7422FB029753FA1D3A4D8FFA8 /* MUILineHeightMultiplierScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242CD8824D6399CEABA3243DFB11EA6 /* MUILineHeightMultiplierScheme.swift */; };
+		E5AB84BD6823421486E5E84D5ED31543 /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1C6C8E0026E5A4FA6404B765A2C4 /* NSMutableAttributedString.swift */; };
+		E9EEC96902AD3A5B67C76F3B47E5C038 /* MUITrayFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8902815FBF9BD372E46EFB7B6C3506C /* MUITrayFooterView.swift */; };
+		EBD6E179667BF46BF14A9F8477AC1504 /* MUIVerticalProgressDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545BD9F96C0EEF58076529BF0A7EF94 /* MUIVerticalProgressDesign.swift */; };
+		ECC2A52F331084D3E552A2D2AD98AE99 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A44E9A46F23075570D2116E0DD0663 /* UIImage.swift */; };
+		EF28CD4A22ADCE63E132E854494DC60F /* MUIAnimationTimingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FD259D9C3096323EECCCAE9265C81 /* MUIAnimationTimingScheme.swift */; };
+		EFA3EAA8CAF61E72FD6D896123AAEAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F1006574C17595169AF5EB250D2D384D /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC030E9EA203B8FEC463BE821FF23AFF /* ThumbView.swift */; };
+		F2F2EC4694D7EA23BC72E10C0FA48619 /* Pods-TrainSetup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15925FEFF96C8C620D11EE33B0065CC /* Pods-TrainSetup-dummy.m */; };
+		F3101D0B5987EB00E6278508EE9E6A18 /* MUITimeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66222BF9F4C2F6258694F5D85A8155B /* MUITimeInput.swift */; };
+		F39524DC3633C81B2EA971729C141A61 /* MUISpinnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014482A2F25DDADB1E1A872DDC5219C9 /* MUISpinnerTableViewCell.swift */; };
+		F7D0A3490AFD399D6F526AA8173DEA4A /* MUISwipeButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B853792BCC94D66928BB98FF28F44 /* MUISwipeButtonState.swift */; };
+		F9F13A654BF8B31FE3EEC6DC1DB94049 /* MUIToolTipViewProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C036F1EA512DD52ADEACA8F079B64 /* MUIToolTipViewProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F57260B5F44440CBD0BB7B0DBE54F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24356E907F411418168F7772A18CFBC3;
+			remoteInfo = MUIKit;
+		};
+		E11AAF648A2C676C43E66C33ABCA5E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3555A626C54668E2D03BF9C2A50506B;
+			remoteInfo = "MUIKit-MUIKitResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014482A2F25DDADB1E1A872DDC5219C9 /* MUISpinnerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISpinnerTableViewCell.swift; sourceTree = "<group>"; };
+		04BB2FB9CDA2110835BDB2886B2373EA /* MUIPopUpTemplatedView+HeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MUIPopUpTemplatedView+HeaderView.swift"; sourceTree = "<group>"; };
+		08F61B8803CD47AD2E040D73CF4467C4 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		09004012512A0ED775E0CBC78FC4717E /* MUIInfoBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIInfoBox.swift; sourceTree = "<group>"; };
+		0AB46037A8FA0454642A1F9A4E244501 /* MUITrayViewControllerPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayViewControllerPresentationDelegate.swift; sourceTree = "<group>"; };
+		0B82B421CA5FF4AD96781AA47DD225C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E2E01707217F460034B90B50497D568 /* MUIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIFont.swift; sourceTree = "<group>"; };
+		0FAB5C035B4AEC35899FF39F39E43AB4 /* MUITypography.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITypography.swift; sourceTree = "<group>"; };
+		1016FDD3E6794E0339E6E819C3DC16B5 /* MUIPopUpViewController+AnimationTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MUIPopUpViewController+AnimationTransitioning.swift"; sourceTree = "<group>"; };
+		10AFA4104016A6AB61C38CC162EA2A14 /* MUIToolTipStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIToolTipStyle.swift; sourceTree = "<group>"; };
+		128FD0A4C9EB806945FF6289C9977A7B /* MUICoachMarkViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICoachMarkViewController.swift; sourceTree = "<group>"; };
+		14136B75C56A80C598BD6F6079E83A11 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		150A9193A299B9F6E357E354A06AF0BC /* MUIPopUpTemplatedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIPopUpTemplatedView.swift; sourceTree = "<group>"; };
+		163076A745774BFE8671E655D2BFA8AA /* MUIInputStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIInputStyle.swift; sourceTree = "<group>"; };
+		16D83E8F0BADC8F20454C4BEDE3D5E3D /* MUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MUIKit.modulemap; sourceTree = "<group>"; };
+		1806BB9BEFEEAE515F1C429C51AB75A9 /* MUIFontSizeScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIFontSizeScheme.swift; sourceTree = "<group>"; };
+		18C1198C25577868284D64D429D6D4B8 /* MUIOpacityScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIOpacityScheme.swift; sourceTree = "<group>"; };
+		19C4F24CB92ABBA7D4785DA14B653F3F /* MUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUIKit.h; path = MUIKit/MUIKit.h; sourceTree = "<group>"; };
+		1ADD027E2234A8E229A79292F47E9E3D /* NSAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		1BF64E6472123F84F663E1218192A415 /* MUIToolTipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIToolTipViewController.swift; sourceTree = "<group>"; };
+		1C0C77F669105FDC5F3838365E1BEAE4 /* MUISpacingScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISpacingScheme.swift; sourceTree = "<group>"; };
+		1C8C35FAE472ADE42C10A369918C0E76 /* MUISelectableViewSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISelectableViewSize.swift; sourceTree = "<group>"; };
+		1D40A3A423FA856F87C4C5E066C9DD91 /* MUICalendarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarViewController.swift; sourceTree = "<group>"; };
+		1E42FB41A0819A22F46446AC21B66EAC /* MUITrayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayViewController.swift; sourceTree = "<group>"; };
+		2274B4AEEED756542F217672FA7EA6C9 /* MUICalendarHorizontalFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarHorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		238A57A796D967DEB3FD15CE9DE949F2 /* MUICalendarCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		243547668B22D2DC6E49B0C1F4A69BE8 /* MUICollapsible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICollapsible.swift; sourceTree = "<group>"; };
+		2545BD9F96C0EEF58076529BF0A7EF94 /* MUIVerticalProgressDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIVerticalProgressDesign.swift; sourceTree = "<group>"; };
+		2593327304AD821F54CDA7BFF16CE9BC /* MUITrayDraggableIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayDraggableIndicatorView.swift; sourceTree = "<group>"; };
+		265EB96A48F704A8C554878A5EDCCDFD /* MUIElevation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIElevation.swift; sourceTree = "<group>"; };
+		273A33FBCB2E767743474BC27FF1DB91 /* MUIButtonIconProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIButtonIconProtocol.swift; sourceTree = "<group>"; };
+		28554F382DE3D3D821A8157D9FEF1C4B /* MUIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUIKit.swift; path = MUIKit/MUIKit.swift; sourceTree = "<group>"; };
+		28EB05A89B72279674190F84DABE0D33 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = MUIKit/Resources/en.lproj; sourceTree = "<group>"; };
+		29C180E9F000846B01256DE9C98A8108 /* Pods-TrainSetup */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TrainSetup"; path = Pods_TrainSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D7950ECD7566C5935DFA0EA49933EE /* MUICellView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICellView.swift; sourceTree = "<group>"; };
+		29E6F6A8EE32D0BB48C7B061EFFF814D /* MUIHorizontalProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIHorizontalProgressView.swift; sourceTree = "<group>"; };
+		2A614B85656C0D4222EE22D720F6FD60 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = MUIKit/Resources/Base.lproj; sourceTree = "<group>"; };
+		2BD058F3305EA0A76E5F31BC4C8A08D0 /* MUINotificationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUINotificationPresenter.swift; sourceTree = "<group>"; };
+		2BFDB8DF3D37F92D00EAA605F6F7DD11 /* MUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MUIKit-dummy.m"; sourceTree = "<group>"; };
+		34F108DF3DB0AA6E8E0A5B47B6D50731 /* MUIKit-MUIKitResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MUIKit-MUIKitResources"; path = MUIKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BD8B366688BDCC810B4A6F39A709FF /* MUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIButton.swift; sourceTree = "<group>"; };
+		3C5E58A7438CF25687F8A626B92E6871 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		3E50F15B6762B5D2209963E0BB935D9F /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = MUIKit/Resources/ms.lproj; sourceTree = "<group>"; };
+		3F600F9BFBDFF9D03433C542BD3C4052 /* MUIRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIRadioButton.swift; sourceTree = "<group>"; };
+		3F8B26FAD124C662A8C37F08C41A785A /* MUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MUIKit-Info.plist"; sourceTree = "<group>"; };
+		42A7E9E8AE6ECAF41A46F88D5D86574A /* MUIButtonSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIButtonSize.swift; sourceTree = "<group>"; };
+		4356D868E0AE6F127BE47917925100B8 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = MUIKit/Resources/th.lproj; sourceTree = "<group>"; };
+		43987C3B46DEA7CE548BF37DBAB12A2B /* MUIPopUpViewController+TransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MUIPopUpViewController+TransitioningDelegate.swift"; sourceTree = "<group>"; };
+		43B66B0183FA0D98D144DFC773F2960C /* MUIElevationScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIElevationScheme.swift; sourceTree = "<group>"; };
+		44DECF2D65A30EBB3BD166BB16ED79A4 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		45D2ED70E20238795F62259717858C43 /* MUITraySelectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITraySelectionViewController.swift; sourceTree = "<group>"; };
+		47B82521D2960B6DA722E819B396F4DB /* MUICheckBoxSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICheckBoxSize.swift; sourceTree = "<group>"; };
+		4A0A5EDC0C81DE081A7942BD2BC2AF16 /* ResourceBundle-MUIKitResources-MUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MUIKitResources-MUIKit-Info.plist"; sourceTree = "<group>"; };
+		4A985B46A1A76FDD76F676E27C67F085 /* MUIDateInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIDateInput.swift; sourceTree = "<group>"; };
+		50E4274A016BABD7DD6AC2505CF013AC /* Pods-TrainSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrainSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		516D3DF5AB93E96FDE7BE2590A985035 /* MUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		531901D7790873F437A4D16B3E6A2622 /* MUINotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUINotification.swift; sourceTree = "<group>"; };
+		53A196671A9A344C8E46C7553675943D /* MUISwipeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwipeButton.swift; sourceTree = "<group>"; };
+		5565F63526A917B412D60F951021467F /* MUITokenScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITokenScheme.swift; sourceTree = "<group>"; };
+		56AC1C6C8E0026E5A4FA6404B765A2C4 /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
+		59A35956C361CD2E6ACD7E75368DBF81 /* UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		5D13DAE6AFAEC79D9712FFEF0D4CC100 /* MUISwipeButtonVariant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwipeButtonVariant.swift; sourceTree = "<group>"; };
+		5FBF816512D54E5A3E2954357C50221C /* MUICalendarHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarHeader.swift; sourceTree = "<group>"; };
+		608811B03A60F8A7BB46B0DD9B8A616F /* MUISharedToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISharedToken.swift; sourceTree = "<group>"; };
+		6266DC73BD41384A9B18F8CC92F8B6AE /* MUIBorderRadiusScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIBorderRadiusScheme.swift; sourceTree = "<group>"; };
+		627FCECD4CF86788DE36B64D560A8900 /* Pods-TrainSetup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrainSetup.modulemap"; sourceTree = "<group>"; };
+		62D1FB987B295E00A7B6B3D98D30B190 /* MUIRangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIRangeSlider.swift; sourceTree = "<group>"; };
+		63AD04E7454FECD8ACD11AA082A5E8DE /* MUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUIKit-prefix.pch"; sourceTree = "<group>"; };
+		663B34161FE9EAD7FFE37B2BEB856126 /* MUINotificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUINotificationView.swift; sourceTree = "<group>"; };
+		667887B909D4CB9C4C99DA8F52E5CC72 /* MUITraySelectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITraySelectionTableViewCell.swift; sourceTree = "<group>"; };
+		6766D6765E901D5F3D8AD97358D52BBB /* MUIPopUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIPopUpViewController.swift; sourceTree = "<group>"; };
+		676F57B6A69603CCC1EFD3B89226168C /* MUISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwitch.swift; sourceTree = "<group>"; };
+		6D9B853792BCC94D66928BB98FF28F44 /* MUISwipeButtonState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwipeButtonState.swift; sourceTree = "<group>"; };
+		6F52029BA7DF601816E7CC41C7C691F1 /* MUIDraggableIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIDraggableIndicator.swift; sourceTree = "<group>"; };
+		725FD259D9C3096323EECCCAE9265C81 /* MUIAnimationTimingScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIAnimationTimingScheme.swift; sourceTree = "<group>"; };
+		73348F16F20DB87B049EC0165D764DA6 /* MUIAutoResizingTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIAutoResizingTableView.swift; sourceTree = "<group>"; };
+		73AFEA9E8E79CA2E792C04E960A60E09 /* MUITrayAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayAnimator.swift; sourceTree = "<group>"; };
+		73B8F8C8D95C3A1CEC88707186984302 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		75643950EA906B9DB7419F330357FE28 /* Pods-TrainSetup-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrainSetup-frameworks.sh"; sourceTree = "<group>"; };
+		7601F3795912918F6EEF6F01F208EC5C /* MUIBorderWidthScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIBorderWidthScheme.swift; sourceTree = "<group>"; };
+		76A2F361F86AFF837635D3E21B3382A3 /* MUIToolTipArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIToolTipArrowView.swift; sourceTree = "<group>"; };
+		774873C3CFF0FCD46F679B692B62CF31 /* MUIHolidayDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIHolidayDate.swift; sourceTree = "<group>"; };
+		7BDAAC578924B3253D1E481BEDD98068 /* MUIVerticalStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIVerticalStepView.swift; sourceTree = "<group>"; };
+		7C79A9633DD3F92876488ED548840F46 /* MUILoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUILoadingIndicator.swift; sourceTree = "<group>"; };
+		7DDD755A05CD970B745F0F016D221CFA /* MUISwipeButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwipeButtonAppearance.swift; sourceTree = "<group>"; };
+		817AEFA06799F5A3567A6DF4D8CCF387 /* MUIVerticalProgressBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIVerticalProgressBottomView.swift; sourceTree = "<group>"; };
+		81CB53D22376D28665B4F842EACDFD4D /* MUIHorizontalProgressViewTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIHorizontalProgressViewTheme.swift; sourceTree = "<group>"; };
+		81FF416AC9EA1679CC1489622DAA38AA /* MUILineDivider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUILineDivider.swift; sourceTree = "<group>"; };
+		838105386C52997E7F93F2D8BD0FFB6E /* MUIPopUpSectionedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIPopUpSectionedView.swift; sourceTree = "<group>"; };
+		849198FFA0ADA0E1A59F586DACAE432E /* Pods-TrainSetup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrainSetup-acknowledgements.plist"; sourceTree = "<group>"; };
+		86A44E9A46F23075570D2116E0DD0663 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		88FC15B6E68EF3CA7EEAB1D29AC136A1 /* MUINewIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUINewIndicator.swift; sourceTree = "<group>"; };
+		898AF19C3B64BDEC48D327CC1401E816 /* MUIToolTipSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIToolTipSize.swift; sourceTree = "<group>"; };
+		8BE01EFE285D17747318A2434E8A3F63 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = MUIKit/Resources/vi.lproj; sourceTree = "<group>"; };
+		8D1399573784807C1345A4E497679501 /* MUIBaseAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIBaseAnimator.swift; sourceTree = "<group>"; };
+		8DAC4EA5C754C3FB4B907D0A4421705F /* MUIInfoBoxType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIInfoBoxType.swift; sourceTree = "<group>"; };
+		9667E45BEF6D4CA10031DCF197459830 /* MUITextButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITextButtonStyle.swift; sourceTree = "<group>"; };
+		980F936C8ABE0F49F779848072776C77 /* MUIPopUpBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIPopUpBaseView.swift; sourceTree = "<group>"; };
+		98A92B00B1D97B40149401410ABAB02F /* MUISwipeButtonSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwipeButtonSize.swift; sourceTree = "<group>"; };
+		9B10AF4B4731645D98C7ED5EB78715DB /* MUITrayPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayPresentationController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1EB717610C75C14EF277D51B95A20DE /* MUISpinnerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISpinnerViewController.swift; sourceTree = "<group>"; };
+		A46C1EA5B863782DF6E66D4E9BA17AE6 /* MUICalendarSectionFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarSectionFooter.swift; sourceTree = "<group>"; };
+		A60C036F1EA512DD52ADEACA8F079B64 /* MUIToolTipViewProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIToolTipViewProperties.swift; sourceTree = "<group>"; };
+		A66222BF9F4C2F6258694F5D85A8155B /* MUITimeInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITimeInput.swift; sourceTree = "<group>"; };
+		A688DCCCDCD69221EB088696A13B2C6C /* MUINotificationConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUINotificationConfig.swift; sourceTree = "<group>"; };
+		A801E9CDC0067F5449B493BBEC40EEED /* MUITraySelectionDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITraySelectionDataSource.swift; sourceTree = "<group>"; };
+		A865C79512607B46022ABC20C8FE1929 /* MUIColorScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIColorScheme.swift; sourceTree = "<group>"; };
+		A90504C6EE39FA4BA65FFA6A7258E728 /* MUIBaseCalendarCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIBaseCalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		AAF0DB2260F095EF2E85303854CF45D4 /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		ABD43C36F5F1BC69CAB0ADE64A5D1B96 /* MUISelectableViewFunctionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISelectableViewFunctionProtocol.swift; sourceTree = "<group>"; };
+		AC030E9EA203B8FEC463BE821FF23AFF /* ThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
+		ADA605DEA1D6F9AA1A3B55DD49C0E0B8 /* MUIInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIInput.swift; sourceTree = "<group>"; };
+		B830D191962AE3935A0D156B4D6688DC /* MUISearchBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISearchBox.swift; sourceTree = "<group>"; };
+		B8F9844FEF6B0FA73D820E27733A6C0B /* MUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MUIKit; path = MUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF70C37129DE7D05936A4D7F615BA1A /* MUIFontScaleScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIFontScaleScheme.swift; sourceTree = "<group>"; };
+		C3939B4434DEC7CFEDCF15BF19E2C151 /* MUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUIKit.release.xcconfig; sourceTree = "<group>"; };
+		C4C33D5F7C6ED0404A422D2CC0AE6210 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = MUIKit/Resources/id.lproj; sourceTree = "<group>"; };
+		C8BCFAC261EBEA352FA4AA6B15021943 /* MUITrayHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayHeaderView.swift; sourceTree = "<group>"; };
+		C938F76F02A63F976F49FF4F149A516C /* MUITrayActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayActionButton.swift; sourceTree = "<group>"; };
+		CB10BF527B51AB4F141D0CC7A4B48EA8 /* MUITextButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITextButton.swift; sourceTree = "<group>"; };
+		CD71128B68E4BC7EE675A8F2DEB1B5C6 /* MUIStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIStepper.swift; sourceTree = "<group>"; };
+		CDD9C51C1993321355BAFE65B71D7F93 /* MUIPopUpViewControllers+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MUIPopUpViewControllers+Helpers.swift"; sourceTree = "<group>"; };
+		D15925FEFF96C8C620D11EE33B0065CC /* Pods-TrainSetup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrainSetup-dummy.m"; sourceTree = "<group>"; };
+		D1DC4F1D7C5392E59A26A0EBA0E82C51 /* MUITraySelectionCellData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITraySelectionCellData.swift; sourceTree = "<group>"; };
+		D1EF4ECA19563000746E991F00737BAF /* MUICoachMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICoachMark.swift; sourceTree = "<group>"; };
+		D242CD8824D6399CEABA3243DFB11EA6 /* MUILineHeightMultiplierScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUILineHeightMultiplierScheme.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2B1A2FF2F00F8E44725C0A5D098F2FC /* MUIVerticalCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIVerticalCircleView.swift; sourceTree = "<group>"; };
+		D3CCA7A6CD7771A980A7A1BE4E1AF382 /* MUIBorderScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIBorderScheme.swift; sourceTree = "<group>"; };
+		D4B15024C08D4F4FA5A40DA91DFC7D14 /* MUILineDividerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUILineDividerType.swift; sourceTree = "<group>"; };
+		D559673FA0FF48CF1FABF7F926B56184 /* MUICalendarPickerViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarPickerViewModel.swift; sourceTree = "<group>"; };
+		D5ADC86AEAC2173F28AC900001FDB7B1 /* MUIFontWeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIFontWeight.swift; sourceTree = "<group>"; };
+		D63E37E2D03C0015EFFD3049B121ADAA /* MUITypographyScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITypographyScheme.swift; sourceTree = "<group>"; };
+		D675A9707FBF2AF3227EB368C80DD339 /* MUICalendarPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarPickerViewController.swift; sourceTree = "<group>"; };
+		D72F80D4A1C8AB5AF7D2108DE9B3C954 /* MUIBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIBadge.swift; sourceTree = "<group>"; };
+		D8902815FBF9BD372E46EFB7B6C3506C /* MUITrayFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayFooterView.swift; sourceTree = "<group>"; };
+		D8A6F4CD2D0A0943BDDA96C2DDAA0220 /* MUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA250A903C4BC7F4CBFBF0E78A933CED /* MUIPopUpTemplatedView+FooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MUIPopUpTemplatedView+FooterView.swift"; sourceTree = "<group>"; };
+		DB2C4EB1158E63FEBFD557E4BBEC6B0B /* MUIButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIButtonStyle.swift; sourceTree = "<group>"; };
+		DC5E2CB32E1BA2EDDCBC7909A0B546FB /* MUISwipeButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISwipeButtonStyle.swift; sourceTree = "<group>"; };
+		DC7DE00B4BF08830BC08B223868A84AF /* Pods-TrainSetup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrainSetup-umbrella.h"; sourceTree = "<group>"; };
+		DC9B4FD55B2F2D8B944F58E3E5E0412D /* Pods-TrainSetup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrainSetup-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE76B239FC8D8613E5CF183443F1ED32 /* MUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIColor.swift; sourceTree = "<group>"; };
+		DF4B5FB01285D6C141B5D13EF517AF61 /* MUITimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITimer.swift; sourceTree = "<group>"; };
+		DFD50B1E18CA5ED4D9EC6467E6CDECAB /* Pods-TrainSetup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrainSetup-Info.plist"; sourceTree = "<group>"; };
+		E0D271294FD20BC5AB84B4DAA9C7B112 /* MUIPopUpTemplatedView+ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MUIPopUpTemplatedView+ContentView.swift"; sourceTree = "<group>"; };
+		E54EF99EEE735F4E9018E5C9CDA93889 /* MUISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUISlider.swift; sourceTree = "<group>"; };
+		E6FE871D209CDEA805CDD80B31C36118 /* MUICheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICheckBox.swift; sourceTree = "<group>"; };
+		E8BCF77BBBF3B517BF650A3E4397EF16 /* MUITrayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayView.swift; sourceTree = "<group>"; };
+		E9C90BE84DBB9E4E7AC1E7115643F484 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MUIKit/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EED30B8C4D4DEA76C43AE4C432005FB3 /* CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		EED7F588B9F9E8ADD2ADBA4EF8EC646D /* MUIToolTipTapToDismissBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIToolTipTapToDismissBehavior.swift; sourceTree = "<group>"; };
+		F123EB9AD3F553ACA7CC25AB0F1B5064 /* MUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUIKit-umbrella.h"; sourceTree = "<group>"; };
+		F3C274061D90467057A6D1098C964D9D /* Pods-TrainSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrainSetup.release.xcconfig"; sourceTree = "<group>"; };
+		FA64D143087EC10F11CA353B5396DA02 /* MUICalendarSectionHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUICalendarSectionHeader.swift; sourceTree = "<group>"; };
+		FA7D29E9E9AFEB964688723ADD5C49DF /* MUINotificationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUINotificationMessage.swift; sourceTree = "<group>"; };
+		FB2C3D30FE5A92308CC97E785CBC6437 /* MUITrayViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUITrayViewControllerTransitioningDelegate.swift; sourceTree = "<group>"; };
+		FBE0B84281D6DAFB38CFE459C81D7119 /* MUIRadioButtonSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIRadioButtonSize.swift; sourceTree = "<group>"; };
+		FCD37A9B9CA79792841C2B508823D1E2 /* MUIVerticalProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MUIVerticalProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BCAA7E98A78D9051FED4F44BC844A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4D3C431AABCB66F44AF19EA5B7B57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8F3DA6AF01907BBA3E2D05FED00418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ABA01D724BCBEC824F9C5151AA847C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA3EAA8CAF61E72FD6D896123AAEAD9 /* Foundation.framework in Frameworks */,
+				4C9EA69937B7AD7F9AD53C4DB0272487 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE225B77B28FBDA44D219BEACEE720D /* MUISwipeButton */ = {
+			isa = PBXGroup;
+			children = (
+				53A196671A9A344C8E46C7553675943D /* MUISwipeButton.swift */,
+				7DDD755A05CD970B745F0F016D221CFA /* MUISwipeButtonAppearance.swift */,
+				98A92B00B1D97B40149401410ABAB02F /* MUISwipeButtonSize.swift */,
+				6D9B853792BCC94D66928BB98FF28F44 /* MUISwipeButtonState.swift */,
+				DC5E2CB32E1BA2EDDCBC7909A0B546FB /* MUISwipeButtonStyle.swift */,
+				5D13DAE6AFAEC79D9712FFEF0D4CC100 /* MUISwipeButtonVariant.swift */,
+			);
+			name = MUISwipeButton;
+			path = MUISwipeButton;
+			sourceTree = "<group>";
+		};
+		0FD091166169CAB268386DBC208DCA0A /* MUIVerticalProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D2B1A2FF2F00F8E44725C0A5D098F2FC /* MUIVerticalCircleView.swift */,
+				817AEFA06799F5A3567A6DF4D8CCF387 /* MUIVerticalProgressBottomView.swift */,
+				2545BD9F96C0EEF58076529BF0A7EF94 /* MUIVerticalProgressDesign.swift */,
+				FCD37A9B9CA79792841C2B508823D1E2 /* MUIVerticalProgressView.swift */,
+				7BDAAC578924B3253D1E481BEDD98068 /* MUIVerticalStepView.swift */,
+			);
+			name = MUIVerticalProgressView;
+			path = MUIVerticalProgressView;
+			sourceTree = "<group>";
+		};
+		1032A9BC8E4B0BEB279A24BE9A9DF6C1 /* MUITimeInput */ = {
+			isa = PBXGroup;
+			children = (
+				A66222BF9F4C2F6258694F5D85A8155B /* MUITimeInput.swift */,
+			);
+			name = MUITimeInput;
+			path = MUITimeInput;
+			sourceTree = "<group>";
+		};
+		10DB881897B0A73E0D3C44D40FF4533F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A352A8026A148FBE8978FBF829860F6F /* MUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		110B6280613EB0610FA9801CF757BE2E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CDD9C51C1993321355BAFE65B71D7F93 /* MUIPopUpViewControllers+Helpers.swift */,
+			);
+			name = Helpers;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19715C26BEE4A26521BC67BB7DA2C1B3 /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				DE76B239FC8D8613E5CF183443F1ED32 /* MUIColor.swift */,
+				265EB96A48F704A8C554878A5EDCCDFD /* MUIElevation.swift */,
+				0E2E01707217F460034B90B50497D568 /* MUIFont.swift */,
+				D5ADC86AEAC2173F28AC900001FDB7B1 /* MUIFontWeight.swift */,
+				608811B03A60F8A7BB46B0DD9B8A616F /* MUISharedToken.swift */,
+				5565F63526A917B412D60F951021467F /* MUITokenScheme.swift */,
+				0FAB5C035B4AEC35899FF39F39E43AB4 /* MUITypography.swift */,
+				EAC46E954987FE1396710F1EC6591460 /* Scheme */,
+			);
+			name = Token;
+			path = MUIKit/Token;
+			sourceTree = "<group>";
+		};
+		1EC452ED7BFB01940F50617E0037F402 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				D1DC4F1D7C5392E59A26A0EBA0E82C51 /* MUITraySelectionCellData.swift */,
+				A801E9CDC0067F5449B493BBEC40EEED /* MUITraySelectionDataSource.swift */,
+				667887B909D4CB9C4C99DA8F52E5CC72 /* MUITraySelectionTableViewCell.swift */,
+				45D2ED70E20238795F62259717858C43 /* MUITraySelectionViewController.swift */,
+			);
+			name = Selection;
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		2A2F5D97759C122ED804F3A724372CA7 /* MUIInput */ = {
+			isa = PBXGroup;
+			children = (
+				ADA605DEA1D6F9AA1A3B55DD49C0E0B8 /* MUIInput.swift */,
+				163076A745774BFE8671E655D2BFA8AA /* MUIInputStyle.swift */,
+			);
+			name = MUIInput;
+			path = MUIInput;
+			sourceTree = "<group>";
+		};
+		2DA8FD3268576C668E56BBA0BA8A9B27 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D72F80D4A1C8AB5AF7D2108DE9B3C954 /* MUIBadge.swift */,
+				7C79A9633DD3F92876488ED548840F46 /* MUILoadingIndicator.swift */,
+				88FC15B6E68EF3CA7EEAB1D29AC136A1 /* MUINewIndicator.swift */,
+				CD71128B68E4BC7EE675A8F2DEB1B5C6 /* MUIStepper.swift */,
+				676F57B6A69603CCC1EFD3B89226168C /* MUISwitch.swift */,
+				EA61881AAF6EE33C99626912BBAAD904 /* MUIButton */,
+				68BC36556C3F7443D837C864739FE4E1 /* MUICalendar */,
+				8B660D043C7855F38B4139702A694140 /* MUICellView */,
+				37B7D9E9A651AF0B90A8E3CF4CE66DEA /* MUICoachMark */,
+				457E6FD17F0BA41DDF76E6819A2111B5 /* MUICollapsible */,
+				6453B35D35BDDF0736AF9498C5A323D9 /* MUIDateInput */,
+				5197CA1FEB246F28884392B5CDC11A1F /* MUIHorizontalProgressView */,
+				3ED51B6D2532319E6F9B770D6B653996 /* MUIInfoBox */,
+				2A2F5D97759C122ED804F3A724372CA7 /* MUIInput */,
+				44B2402ED4A4DBCD39E3C1D537554D34 /* MUILineDivider */,
+				C8C58A3C7C7BAD8E0B9378D622E81152 /* MUINotification */,
+				6E97D551933C2A5D6C97CCBF3143F3A5 /* MUIPopUp */,
+				ED73C6DE72482768D18C180A69C0F80E /* MUISearchBox */,
+				EF36560B402CA56984F6CB6CBF34432A /* MUISelectableView */,
+				9153DF31A0E215DF234208C8F241945C /* MUISlider */,
+				3BF99213BACEDD8E70DBA605B16655D1 /* MUISpinner */,
+				0AE225B77B28FBDA44D219BEACEE720D /* MUISwipeButton */,
+				77E761E176EA44662A6770CBD35DC351 /* MUITextButton */,
+				1032A9BC8E4B0BEB279A24BE9A9DF6C1 /* MUITimeInput */,
+				B822E0BCA21115FB10D0BC90113D8B83 /* MUITimer */,
+				3E144B7D0DDF057E4F2A6CC1578986E6 /* MUIToolTip */,
+				A2428DD6DDADA33F0CC64A629961079C /* MUITray */,
+				0FD091166169CAB268386DBC208DCA0A /* MUIVerticalProgressView */,
+			);
+			name = Component;
+			path = MUIKit/Component;
+			sourceTree = "<group>";
+		};
+		37B7D9E9A651AF0B90A8E3CF4CE66DEA /* MUICoachMark */ = {
+			isa = PBXGroup;
+			children = (
+				D1EF4ECA19563000746E991F00737BAF /* MUICoachMark.swift */,
+				128FD0A4C9EB806945FF6289C9977A7B /* MUICoachMarkViewController.swift */,
+			);
+			name = MUICoachMark;
+			path = MUICoachMark;
+			sourceTree = "<group>";
+		};
+		3BF99213BACEDD8E70DBA605B16655D1 /* MUISpinner */ = {
+			isa = PBXGroup;
+			children = (
+				014482A2F25DDADB1E1A872DDC5219C9 /* MUISpinnerTableViewCell.swift */,
+				A1EB717610C75C14EF277D51B95A20DE /* MUISpinnerViewController.swift */,
+			);
+			name = MUISpinner;
+			path = MUISpinner;
+			sourceTree = "<group>";
+		};
+		3E144B7D0DDF057E4F2A6CC1578986E6 /* MUIToolTip */ = {
+			isa = PBXGroup;
+			children = (
+				76A2F361F86AFF837635D3E21B3382A3 /* MUIToolTipArrowView.swift */,
+				898AF19C3B64BDEC48D327CC1401E816 /* MUIToolTipSize.swift */,
+				10AFA4104016A6AB61C38CC162EA2A14 /* MUIToolTipStyle.swift */,
+				EED7F588B9F9E8ADD2ADBA4EF8EC646D /* MUIToolTipTapToDismissBehavior.swift */,
+				1BF64E6472123F84F663E1218192A415 /* MUIToolTipViewController.swift */,
+				A60C036F1EA512DD52ADEACA8F079B64 /* MUIToolTipViewProperties.swift */,
+			);
+			name = MUIToolTip;
+			path = MUIToolTip;
+			sourceTree = "<group>";
+		};
+		3ED51B6D2532319E6F9B770D6B653996 /* MUIInfoBox */ = {
+			isa = PBXGroup;
+			children = (
+				09004012512A0ED775E0CBC78FC4717E /* MUIInfoBox.swift */,
+				8DAC4EA5C754C3FB4B907D0A4421705F /* MUIInfoBoxType.swift */,
+			);
+			name = MUIInfoBox;
+			path = MUIInfoBox;
+			sourceTree = "<group>";
+		};
+		44B2402ED4A4DBCD39E3C1D537554D34 /* MUILineDivider */ = {
+			isa = PBXGroup;
+			children = (
+				81FF416AC9EA1679CC1489622DAA38AA /* MUILineDivider.swift */,
+				D4B15024C08D4F4FA5A40DA91DFC7D14 /* MUILineDividerType.swift */,
+			);
+			name = MUILineDivider;
+			path = MUILineDivider;
+			sourceTree = "<group>";
+		};
+		457E6FD17F0BA41DDF76E6819A2111B5 /* MUICollapsible */ = {
+			isa = PBXGroup;
+			children = (
+				243547668B22D2DC6E49B0C1F4A69BE8 /* MUICollapsible.swift */,
+			);
+			name = MUICollapsible;
+			path = MUICollapsible;
+			sourceTree = "<group>";
+		};
+		4B04EB30256BCA110DAC595A4C75F120 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08F61B8803CD47AD2E040D73CF4467C4 /* Bundle.swift */,
+				EED30B8C4D4DEA76C43AE4C432005FB3 /* CALayer.swift */,
+				1ADD027E2234A8E229A79292F47E9E3D /* NSAttributedString.swift */,
+				56AC1C6C8E0026E5A4FA6404B765A2C4 /* NSMutableAttributedString.swift */,
+				3C5E58A7438CF25687F8A626B92E6871 /* String.swift */,
+				44DECF2D65A30EBB3BD166BB16ED79A4 /* UIButton.swift */,
+				73B8F8C8D95C3A1CEC88707186984302 /* UIColor.swift */,
+				59A35956C361CD2E6ACD7E75368DBF81 /* UIFont.swift */,
+				86A44E9A46F23075570D2116E0DD0663 /* UIImage.swift */,
+				AAF0DB2260F095EF2E85303854CF45D4 /* UIView.swift */,
+			);
+			name = Extensions;
+			path = MUIKit/Extensions;
+			sourceTree = "<group>";
+		};
+		5197CA1FEB246F28884392B5CDC11A1F /* MUIHorizontalProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				29E6F6A8EE32D0BB48C7B061EFFF814D /* MUIHorizontalProgressView.swift */,
+				81CB53D22376D28665B4F842EACDFD4D /* MUIHorizontalProgressViewTheme.swift */,
+			);
+			name = MUIHorizontalProgressView;
+			path = MUIHorizontalProgressView;
+			sourceTree = "<group>";
+		};
+		52EE81FF3312DC900F037264DC42AC5A /* Pods-TrainSetup */ = {
+			isa = PBXGroup;
+			children = (
+				627FCECD4CF86788DE36B64D560A8900 /* Pods-TrainSetup.modulemap */,
+				DC9B4FD55B2F2D8B944F58E3E5E0412D /* Pods-TrainSetup-acknowledgements.markdown */,
+				849198FFA0ADA0E1A59F586DACAE432E /* Pods-TrainSetup-acknowledgements.plist */,
+				D15925FEFF96C8C620D11EE33B0065CC /* Pods-TrainSetup-dummy.m */,
+				75643950EA906B9DB7419F330357FE28 /* Pods-TrainSetup-frameworks.sh */,
+				DFD50B1E18CA5ED4D9EC6467E6CDECAB /* Pods-TrainSetup-Info.plist */,
+				DC7DE00B4BF08830BC08B223868A84AF /* Pods-TrainSetup-umbrella.h */,
+				50E4274A016BABD7DD6AC2505CF013AC /* Pods-TrainSetup.debug.xcconfig */,
+				F3C274061D90467057A6D1098C964D9D /* Pods-TrainSetup.release.xcconfig */,
+			);
+			name = "Pods-TrainSetup";
+			path = "Target Support Files/Pods-TrainSetup";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C378054DBD666E6C995C69A3B9A437B /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				6266DC73BD41384A9B18F8CC92F8B6AE /* MUIBorderRadiusScheme.swift */,
+				7601F3795912918F6EEF6F01F208EC5C /* MUIBorderWidthScheme.swift */,
+			);
+			name = Border;
+			path = Border;
+			sourceTree = "<group>";
+		};
+		6118286627CA63001AC836B57462EA3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EE81FF3312DC900F037264DC42AC5A /* Pods-TrainSetup */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6453B35D35BDDF0736AF9498C5A323D9 /* MUIDateInput */ = {
+			isa = PBXGroup;
+			children = (
+				4A985B46A1A76FDD76F676E27C67F085 /* MUIDateInput.swift */,
+			);
+			name = MUIDateInput;
+			path = MUIDateInput;
+			sourceTree = "<group>";
+		};
+		6529929A252F757E41E8974481AB0DD5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				273A33FBCB2E767743474BC27FF1DB91 /* MUIButtonIconProtocol.swift */,
+			);
+			name = Protocol;
+			path = MUIKit/Protocol;
+			sourceTree = "<group>";
+		};
+		656097BE8B3E155D7BCD7B2F4AFFDCAC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1016FDD3E6794E0339E6E819C3DC16B5 /* MUIPopUpViewController+AnimationTransitioning.swift */,
+				43987C3B46DEA7CE548BF37DBAB12A2B /* MUIPopUpViewController+TransitioningDelegate.swift */,
+			);
+			name = Animation;
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		68BC36556C3F7443D837C864739FE4E1 /* MUICalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A90504C6EE39FA4BA65FFA6A7258E728 /* MUIBaseCalendarCollectionViewCell.swift */,
+				238A57A796D967DEB3FD15CE9DE949F2 /* MUICalendarCollectionViewCell.swift */,
+				5FBF816512D54E5A3E2954357C50221C /* MUICalendarHeader.swift */,
+				2274B4AEEED756542F217672FA7EA6C9 /* MUICalendarHorizontalFlowLayout.swift */,
+				D675A9707FBF2AF3227EB368C80DD339 /* MUICalendarPickerViewController.swift */,
+				D559673FA0FF48CF1FABF7F926B56184 /* MUICalendarPickerViewModel.swift */,
+				A46C1EA5B863782DF6E66D4E9BA17AE6 /* MUICalendarSectionFooter.swift */,
+				FA64D143087EC10F11CA353B5396DA02 /* MUICalendarSectionHeader.swift */,
+				1D40A3A423FA856F87C4C5E066C9DD91 /* MUICalendarViewController.swift */,
+				774873C3CFF0FCD46F679B692B62CF31 /* MUIHolidayDate.swift */,
+			);
+			name = MUICalendar;
+			path = MUICalendar;
+			sourceTree = "<group>";
+		};
+		6E97D551933C2A5D6C97CCBF3143F3A5 /* MUIPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				980F936C8ABE0F49F779848072776C77 /* MUIPopUpBaseView.swift */,
+				838105386C52997E7F93F2D8BD0FFB6E /* MUIPopUpSectionedView.swift */,
+				150A9193A299B9F6E357E354A06AF0BC /* MUIPopUpTemplatedView.swift */,
+				E0D271294FD20BC5AB84B4DAA9C7B112 /* MUIPopUpTemplatedView+ContentView.swift */,
+				DA250A903C4BC7F4CBFBF0E78A933CED /* MUIPopUpTemplatedView+FooterView.swift */,
+				04BB2FB9CDA2110835BDB2886B2373EA /* MUIPopUpTemplatedView+HeaderView.swift */,
+				6766D6765E901D5F3D8AD97358D52BBB /* MUIPopUpViewController.swift */,
+				656097BE8B3E155D7BCD7B2F4AFFDCAC /* Animation */,
+				110B6280613EB0610FA9801CF757BE2E /* Helpers */,
+			);
+			name = MUIPopUp;
+			path = MUIPopUp;
+			sourceTree = "<group>";
+		};
+		77E761E176EA44662A6770CBD35DC351 /* MUITextButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB10BF527B51AB4F141D0CC7A4B48EA8 /* MUITextButton.swift */,
+				9667E45BEF6D4CA10031DCF197459830 /* MUITextButtonStyle.swift */,
+			);
+			name = MUITextButton;
+			path = MUITextButton;
+			sourceTree = "<group>";
+		};
+		8B660D043C7855F38B4139702A694140 /* MUICellView */ = {
+			isa = PBXGroup;
+			children = (
+				29D7950ECD7566C5935DFA0EA49933EE /* MUICellView.swift */,
+			);
+			name = MUICellView;
+			path = MUICellView;
+			sourceTree = "<group>";
+		};
+		9153DF31A0E215DF234208C8F241945C /* MUISlider */ = {
+			isa = PBXGroup;
+			children = (
+				62D1FB987B295E00A7B6B3D98D30B190 /* MUIRangeSlider.swift */,
+				E54EF99EEE735F4E9018E5C9CDA93889 /* MUISlider.swift */,
+			);
+			name = MUISlider;
+			path = MUISlider;
+			sourceTree = "<group>";
+		};
+		A2428DD6DDADA33F0CC64A629961079C /* MUITray */ = {
+			isa = PBXGroup;
+			children = (
+				6F52029BA7DF601816E7CC41C7C691F1 /* MUIDraggableIndicator.swift */,
+				C938F76F02A63F976F49FF4F149A516C /* MUITrayActionButton.swift */,
+				73AFEA9E8E79CA2E792C04E960A60E09 /* MUITrayAnimator.swift */,
+				2593327304AD821F54CDA7BFF16CE9BC /* MUITrayDraggableIndicatorView.swift */,
+				D8902815FBF9BD372E46EFB7B6C3506C /* MUITrayFooterView.swift */,
+				C8BCFAC261EBEA352FA4AA6B15021943 /* MUITrayHeaderView.swift */,
+				9B10AF4B4731645D98C7ED5EB78715DB /* MUITrayPresentationController.swift */,
+				E8BCF77BBBF3B517BF650A3E4397EF16 /* MUITrayView.swift */,
+				1E42FB41A0819A22F46446AC21B66EAC /* MUITrayViewController.swift */,
+				0AB46037A8FA0454642A1F9A4E244501 /* MUITrayViewControllerPresentationDelegate.swift */,
+				FB2C3D30FE5A92308CC97E785CBC6437 /* MUITrayViewControllerTransitioningDelegate.swift */,
+				1EC452ED7BFB01940F50617E0037F402 /* Selection */,
+			);
+			name = MUITray;
+			path = MUITray;
+			sourceTree = "<group>";
+		};
+		A352A8026A148FBE8978FBF829860F6F /* MUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E9C90BE84DBB9E4E7AC1E7115643F484 /* Assets.xcassets */,
+				2A614B85656C0D4222EE22D720F6FD60 /* Base.lproj */,
+				28EB05A89B72279674190F84DABE0D33 /* en.lproj */,
+				C4C33D5F7C6ED0404A422D2CC0AE6210 /* id.lproj */,
+				3E50F15B6762B5D2209963E0BB935D9F /* ms.lproj */,
+				19C4F24CB92ABBA7D4785DA14B653F3F /* MUIKit.h */,
+				28554F382DE3D3D821A8157D9FEF1C4B /* MUIKit.swift */,
+				4356D868E0AE6F127BE47917925100B8 /* th.lproj */,
+				8BE01EFE285D17747318A2434E8A3F63 /* vi.lproj */,
+				2DA8FD3268576C668E56BBA0BA8A9B27 /* Component */,
+				4B04EB30256BCA110DAC595A4C75F120 /* Extensions */,
+				F5875F70CC3305DEE52FDA96C664B5B1 /* Pod */,
+				6529929A252F757E41E8974481AB0DD5 /* Protocol */,
+				FE160E1EE5CC98781A709761A35CA03D /* Support Files */,
+				19715C26BEE4A26521BC67BB7DA2C1B3 /* Token */,
+				F039FD2D69C4232BBFE9E464B6AD48B3 /* Util */,
+			);
+			name = MUIKit;
+			path = "/Users/muhammadfawwazmayda/Documents/district-traveloka/packages/apps/ios/Traveloka/Modules/MUIKit";
+			sourceTree = "<absolute>";
+		};
+		B822E0BCA21115FB10D0BC90113D8B83 /* MUITimer */ = {
+			isa = PBXGroup;
+			children = (
+				DF4B5FB01285D6C141B5D13EF517AF61 /* MUITimer.swift */,
+			);
+			name = MUITimer;
+			path = MUITimer;
+			sourceTree = "<group>";
+		};
+		C422580D245999E9D596E9CB91E2D12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8F9844FEF6B0FA73D820E27733A6C0B /* MUIKit */,
+				34F108DF3DB0AA6E8E0A5B47B6D50731 /* MUIKit-MUIKitResources */,
+				29C180E9F000846B01256DE9C98A8108 /* Pods-TrainSetup */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C58A3C7C7BAD8E0B9378D622E81152 /* MUINotification */ = {
+			isa = PBXGroup;
+			children = (
+				531901D7790873F437A4D16B3E6A2622 /* MUINotification.swift */,
+				A688DCCCDCD69221EB088696A13B2C6C /* MUINotificationConfig.swift */,
+				FA7D29E9E9AFEB964688723ADD5C49DF /* MUINotificationMessage.swift */,
+				2BD058F3305EA0A76E5F31BC4C8A08D0 /* MUINotificationPresenter.swift */,
+				663B34161FE9EAD7FFE37B2BEB856126 /* MUINotificationView.swift */,
+			);
+			name = MUINotification;
+			path = MUINotification;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				10DB881897B0A73E0D3C44D40FF4533F /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C422580D245999E9D596E9CB91E2D12A /* Products */,
+				6118286627CA63001AC836B57462EA3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B31A2C9138774C1E3B27CA5389D2ED /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				BBF70C37129DE7D05936A4D7F615BA1A /* MUIFontScaleScheme.swift */,
+				1806BB9BEFEEAE515F1C429C51AB75A9 /* MUIFontSizeScheme.swift */,
+				D242CD8824D6399CEABA3243DFB11EA6 /* MUILineHeightMultiplierScheme.swift */,
+			);
+			name = Typography;
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		EA61881AAF6EE33C99626912BBAAD904 /* MUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				37BD8B366688BDCC810B4A6F39A709FF /* MUIButton.swift */,
+				42A7E9E8AE6ECAF41A46F88D5D86574A /* MUIButtonSize.swift */,
+				DB2C4EB1158E63FEBFD557E4BBEC6B0B /* MUIButtonStyle.swift */,
+			);
+			name = MUIButton;
+			path = MUIButton;
+			sourceTree = "<group>";
+		};
+		EAC46E954987FE1396710F1EC6591460 /* Scheme */ = {
+			isa = PBXGroup;
+			children = (
+				725FD259D9C3096323EECCCAE9265C81 /* MUIAnimationTimingScheme.swift */,
+				D3CCA7A6CD7771A980A7A1BE4E1AF382 /* MUIBorderScheme.swift */,
+				A865C79512607B46022ABC20C8FE1929 /* MUIColorScheme.swift */,
+				43B66B0183FA0D98D144DFC773F2960C /* MUIElevationScheme.swift */,
+				18C1198C25577868284D64D429D6D4B8 /* MUIOpacityScheme.swift */,
+				1C0C77F669105FDC5F3838365E1BEAE4 /* MUISpacingScheme.swift */,
+				D63E37E2D03C0015EFFD3049B121ADAA /* MUITypographyScheme.swift */,
+				5C378054DBD666E6C995C69A3B9A437B /* Border */,
+				E5B31A2C9138774C1E3B27CA5389D2ED /* Typography */,
+			);
+			name = Scheme;
+			path = Scheme;
+			sourceTree = "<group>";
+		};
+		ED73C6DE72482768D18C180A69C0F80E /* MUISearchBox */ = {
+			isa = PBXGroup;
+			children = (
+				B830D191962AE3935A0D156B4D6688DC /* MUISearchBox.swift */,
+			);
+			name = MUISearchBox;
+			path = MUISearchBox;
+			sourceTree = "<group>";
+		};
+		EF36560B402CA56984F6CB6CBF34432A /* MUISelectableView */ = {
+			isa = PBXGroup;
+			children = (
+				E6FE871D209CDEA805CDD80B31C36118 /* MUICheckBox.swift */,
+				47B82521D2960B6DA722E819B396F4DB /* MUICheckBoxSize.swift */,
+				3F600F9BFBDFF9D03433C542BD3C4052 /* MUIRadioButton.swift */,
+				FBE0B84281D6DAFB38CFE459C81D7119 /* MUIRadioButtonSize.swift */,
+				ABD43C36F5F1BC69CAB0ADE64A5D1B96 /* MUISelectableViewFunctionProtocol.swift */,
+				1C8C35FAE472ADE42C10A369918C0E76 /* MUISelectableViewSize.swift */,
+			);
+			name = MUISelectableView;
+			path = MUISelectableView;
+			sourceTree = "<group>";
+		};
+		F039FD2D69C4232BBFE9E464B6AD48B3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				73348F16F20DB87B049EC0165D764DA6 /* MUIAutoResizingTableView.swift */,
+				8D1399573784807C1345A4E497679501 /* MUIBaseAnimator.swift */,
+				AC030E9EA203B8FEC463BE821FF23AFF /* ThumbView.swift */,
+				14136B75C56A80C598BD6F6079E83A11 /* UIImageView+Extension.swift */,
+			);
+			name = Util;
+			path = MUIKit/Util;
+			sourceTree = "<group>";
+		};
+		F5875F70CC3305DEE52FDA96C664B5B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8A6F4CD2D0A0943BDDA96C2DDAA0220 /* MUIKit.podspec */,
+				0B82B421CA5FF4AD96781AA47DD225C5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FE160E1EE5CC98781A709761A35CA03D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D83E8F0BADC8F20454C4BEDE3D5E3D /* MUIKit.modulemap */,
+				2BFDB8DF3D37F92D00EAA605F6F7DD11 /* MUIKit-dummy.m */,
+				3F8B26FAD124C662A8C37F08C41A785A /* MUIKit-Info.plist */,
+				63AD04E7454FECD8ACD11AA082A5E8DE /* MUIKit-prefix.pch */,
+				F123EB9AD3F553ACA7CC25AB0F1B5064 /* MUIKit-umbrella.h */,
+				516D3DF5AB93E96FDE7BE2590A985035 /* MUIKit.debug.xcconfig */,
+				C3939B4434DEC7CFEDCF15BF19E2C151 /* MUIKit.release.xcconfig */,
+				4A0A5EDC0C81DE081A7942BD2BC2AF16 /* ResourceBundle-MUIKitResources-MUIKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../../../../../../TrainSetup/Pods/Target Support Files/MUIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23745B69991FE102F152EC548D69435F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF41C2C4F7DC3B282D72F895208106 /* Pods-TrainSetup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00EA348C3AC2624601A388E2E9D313D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EA37C147AE17F485DAEDE039F3315B /* MUIKit.h in Headers */,
+				14986824D56CDF64B31B3EBB69D2BD94 /* MUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24356E907F411418168F7772A18CFBC3 /* MUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4123E74E174683AD5234C4EF3B2696 /* Build configuration list for PBXNativeTarget "MUIKit" */;
+			buildPhases = (
+				D00EA348C3AC2624601A388E2E9D313D /* Headers */,
+				3E8575A808BF8647720E6C25FF6C8864 /* Sources */,
+				65ABA01D724BCBEC824F9C5151AA847C /* Frameworks */,
+				6A4DE766A305E920A790EBE19D117393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05C7B3F27A1141DE67F3656A666DC72 /* PBXTargetDependency */,
+			);
+			name = MUIKit;
+			productName = MUIKit;
+			productReference = B8F9844FEF6B0FA73D820E27733A6C0B /* MUIKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3555A626C54668E2D03BF9C2A50506B /* MUIKit-MUIKitResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC90905F73B9E8297217781DA3C89392 /* Build configuration list for PBXNativeTarget "MUIKit-MUIKitResources" */;
+			buildPhases = (
+				0D7F60D46EAF37D4243DF2D93338E4E1 /* Sources */,
+				0BCAA7E98A78D9051FED4F44BC844A86 /* Frameworks */,
+				B8D5D998A2F4D42F1A8CBA4D900A396D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MUIKit-MUIKitResources";
+			productName = MUIKitResources;
+			productReference = 34F108DF3DB0AA6E8E0A5B47B6D50731 /* MUIKit-MUIKitResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E56C360C82ED0EE952E60B6B83D72DB9 /* Pods-TrainSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9D10C00C754BFD6D3DCAE11ACA737B /* Build configuration list for PBXNativeTarget "Pods-TrainSetup" */;
+			buildPhases = (
+				23745B69991FE102F152EC548D69435F /* Headers */,
+				1C0B74E223B930250418879ACE301F00 /* Sources */,
+				3D4D3C431AABCB66F44AF19EA5B7B57B /* Frameworks */,
+				54160748CFD3524C9E8327466D7C7B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C23BD5613F1DE0D3349734094E84A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrainSetup";
+			productName = Pods_TrainSetup;
+			productReference = 29C180E9F000846B01256DE9C98A8108 /* Pods-TrainSetup */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				id,
+				ms,
+				th,
+				vi,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C422580D245999E9D596E9CB91E2D12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24356E907F411418168F7772A18CFBC3 /* MUIKit */,
+				D3555A626C54668E2D03BF9C2A50506B /* MUIKit-MUIKitResources */,
+				E56C360C82ED0EE952E60B6B83D72DB9 /* Pods-TrainSetup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54160748CFD3524C9E8327466D7C7B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DE766A305E920A790EBE19D117393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC822E0FE5DBF2EB1B4192313AD4D3CB /* MUIKit-MUIKitResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D5D998A2F4D42F1A8CBA4D900A396D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04661B718482E19DF57E30BCE6312077 /* Assets.xcassets in Resources */,
+				6BF42A9CD8096E1ADB8F88BA3BA1E9D8 /* Base.lproj in Resources */,
+				AD1912B4E07CDFC9EDD931F6BF0F4803 /* en.lproj in Resources */,
+				3394342479A5B007642EEF96BB58F104 /* id.lproj in Resources */,
+				B174E2F8C337E84BDB4D62772EB5F28E /* ms.lproj in Resources */,
+				BC5DEC30794B752698C1878CA9977914 /* th.lproj in Resources */,
+				16F543F6AFB3DA26B101BC83541EE5FF /* vi.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7F60D46EAF37D4243DF2D93338E4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0B74E223B930250418879ACE301F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F2EC4694D7EA23BC72E10C0FA48619 /* Pods-TrainSetup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8575A808BF8647720E6C25FF6C8864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABBC9DE7CEB261306A0A8C087EA04D4 /* Bundle.swift in Sources */,
+				943AF2E41FF59AB277EA793B23E9B98C /* CALayer.swift in Sources */,
+				EF28CD4A22ADCE63E132E854494DC60F /* MUIAnimationTimingScheme.swift in Sources */,
+				67D2D971C25B9D02FCB2888E215150D2 /* MUIAutoResizingTableView.swift in Sources */,
+				74D2CF5211EEF1118EC09E00DE01A96F /* MUIBadge.swift in Sources */,
+				9061436C9C06A00E6C205D89E6A93E1C /* MUIBaseAnimator.swift in Sources */,
+				1F3FCF6D86462CE5B714E7ACD979E44D /* MUIBaseCalendarCollectionViewCell.swift in Sources */,
+				8E726F3DBCEB5F1041498314984024FC /* MUIBorderRadiusScheme.swift in Sources */,
+				8DE3C03A4969BB87FEB65F363A549530 /* MUIBorderScheme.swift in Sources */,
+				86C8DAF29BFC814F6AA558BD899D8BD9 /* MUIBorderWidthScheme.swift in Sources */,
+				C984192E0C098F61217BCDF45CD9D56F /* MUIButton.swift in Sources */,
+				72F145A8B8E4BCB65C3D85974DC95F2E /* MUIButtonIconProtocol.swift in Sources */,
+				E01D0E2DA307909BD4DD4E0D4AF90BC8 /* MUIButtonSize.swift in Sources */,
+				B6B78C3A49C33F85376A1E739351142D /* MUIButtonStyle.swift in Sources */,
+				DD45B687A964786416AF4B1AEE2EC22C /* MUICalendarCollectionViewCell.swift in Sources */,
+				2CD309303839AB8E19BDC9C5E212EAD2 /* MUICalendarHeader.swift in Sources */,
+				1A41B9ACFB2B12BEB862B55D0BF5EA4D /* MUICalendarHorizontalFlowLayout.swift in Sources */,
+				34B24510B24D7C338AFFFFBB4AA49587 /* MUICalendarPickerViewController.swift in Sources */,
+				B476C6D4D56D4481BD5406514676F2EB /* MUICalendarPickerViewModel.swift in Sources */,
+				353FC0DB59ED9814C217FC70DF4DB0ED /* MUICalendarSectionFooter.swift in Sources */,
+				68A581AF7FDBCF65A08A8AD3378A1F9E /* MUICalendarSectionHeader.swift in Sources */,
+				73BD02951377765C602679BB291545C0 /* MUICalendarViewController.swift in Sources */,
+				D82A11D777AEEE12F095757085F86539 /* MUICellView.swift in Sources */,
+				1D33D080939B9A55EDD98CD4E12ED50C /* MUICheckBox.swift in Sources */,
+				0D66B06AAE4BEC13674065D86CBD4268 /* MUICheckBoxSize.swift in Sources */,
+				DA7BC8DD056ADFA88E242CA1C9510B6C /* MUICoachMark.swift in Sources */,
+				2F2F6F3727621D7DAE45736B09042790 /* MUICoachMarkViewController.swift in Sources */,
+				C236CDD464C66FD4AA243508EFF6AA00 /* MUICollapsible.swift in Sources */,
+				7BA549B1B8D4EFAB909AC8F7A31B68EA /* MUIColor.swift in Sources */,
+				D1F99EAE87BB33E8FAAAC8DB1F10043B /* MUIColorScheme.swift in Sources */,
+				32554E0ED1AF26628B4E44B824E5839A /* MUIDateInput.swift in Sources */,
+				CCD0CFA88BB905738366071AFDDF035D /* MUIDraggableIndicator.swift in Sources */,
+				73221AFE99DBF352468A66EAF18C4D7B /* MUIElevation.swift in Sources */,
+				C6ACA9982CA84F8FDD72F557CEE659CB /* MUIElevationScheme.swift in Sources */,
+				4ECE78D04228EB1A9740560D489D305C /* MUIFont.swift in Sources */,
+				DE3F0B42C9104C9804BA5AD89E26C63B /* MUIFontScaleScheme.swift in Sources */,
+				51A60547F7D80F014E355B68389C4FA1 /* MUIFontSizeScheme.swift in Sources */,
+				56454BAC7DF8E6877D4616406C83A9F8 /* MUIFontWeight.swift in Sources */,
+				708F02E3BD975ED50A978973362B636E /* MUIHolidayDate.swift in Sources */,
+				D046F30EF3FB67C02B887909E458DBC0 /* MUIHorizontalProgressView.swift in Sources */,
+				998178882BA4B7ECA27AEB3C2BE0C731 /* MUIHorizontalProgressViewTheme.swift in Sources */,
+				7DA9E1D0E6DB789CDF9157CCAD41E516 /* MUIInfoBox.swift in Sources */,
+				5ADAFEE857B6F3291AB8E88CC38A0AEC /* MUIInfoBoxType.swift in Sources */,
+				5B6D88D2AD339701B9ED5FF42D2A6DA0 /* MUIInput.swift in Sources */,
+				BF01425BF0138ECCF86F34D5694D1782 /* MUIInputStyle.swift in Sources */,
+				85451BEC4999A19CA91C277905A68AEC /* MUIKit.swift in Sources */,
+				467C29A6C76B4562A5283D5A31E11C05 /* MUIKit-dummy.m in Sources */,
+				57F661227AD50BF09B699D44B1176393 /* MUILineDivider.swift in Sources */,
+				D2FE466ED70603787C0E4A583A29D0B0 /* MUILineDividerType.swift in Sources */,
+				E47BABB7422FB029753FA1D3A4D8FFA8 /* MUILineHeightMultiplierScheme.swift in Sources */,
+				7B00DF9A7C0919E732D834ED0E527E33 /* MUILoadingIndicator.swift in Sources */,
+				1FD0A400571057CAD0DCF97F0AC71C3E /* MUINewIndicator.swift in Sources */,
+				ABFA94B7A24ABA5E81A9B5A9D95D4002 /* MUINotification.swift in Sources */,
+				ACB4AF17921091BAFBB4D15145B5CCF2 /* MUINotificationConfig.swift in Sources */,
+				0E3423B82E92FEF5FE38F45120093E45 /* MUINotificationMessage.swift in Sources */,
+				9777930F332CA5FB0672B4DE2FFE9699 /* MUINotificationPresenter.swift in Sources */,
+				55CCAB58DADC9116BE365999F6172288 /* MUINotificationView.swift in Sources */,
+				CF4834469933C35E52FD6DC67839D743 /* MUIOpacityScheme.swift in Sources */,
+				69953F4E87B3524FAF1117D8B3EE428D /* MUIPopUpBaseView.swift in Sources */,
+				441EA40C7426E7D49D805EDE72B24A21 /* MUIPopUpSectionedView.swift in Sources */,
+				7DED93AB6575AA71F973C39DC09EE659 /* MUIPopUpTemplatedView.swift in Sources */,
+				0A2036E4D3B02EAAAD26DD5EAA05AC67 /* MUIPopUpTemplatedView+ContentView.swift in Sources */,
+				7B4DC5C4EEE6DF8063352CC761EB185B /* MUIPopUpTemplatedView+FooterView.swift in Sources */,
+				DF746C49E0138D718DA2FE1AC4878A9C /* MUIPopUpTemplatedView+HeaderView.swift in Sources */,
+				A6E5D4C2F010D4F33533C5A112A16F8D /* MUIPopUpViewController.swift in Sources */,
+				AD6D9EC11A34536FAB128FDAD7A7FFC2 /* MUIPopUpViewController+AnimationTransitioning.swift in Sources */,
+				1B3934563D5AD25AD45296897BE6984F /* MUIPopUpViewController+TransitioningDelegate.swift in Sources */,
+				7B0F77D2826526E728EAB9E07758D090 /* MUIPopUpViewControllers+Helpers.swift in Sources */,
+				27A8D8DA2CF5A5C9615EDEC28B7FB82E /* MUIRadioButton.swift in Sources */,
+				622B3A36DEB61125BEFFA474CAB9737A /* MUIRadioButtonSize.swift in Sources */,
+				CAE288FFEAA8EBCC422F1A1BCDB02CC0 /* MUIRangeSlider.swift in Sources */,
+				9479CAD077C2A3D19120C0540A87EA90 /* MUISearchBox.swift in Sources */,
+				74ED544A79F4C2C97C0E3F6D9A5552B1 /* MUISelectableViewFunctionProtocol.swift in Sources */,
+				6FCA9CD24B40D7EEE0BEEBF8001FD667 /* MUISelectableViewSize.swift in Sources */,
+				22480D92AB7EB25A4695E74B734B5A92 /* MUISharedToken.swift in Sources */,
+				9BB4BD13552F95F602CD4376C7196591 /* MUISlider.swift in Sources */,
+				7B8D0702812D3139F2798EED5A785307 /* MUISpacingScheme.swift in Sources */,
+				F39524DC3633C81B2EA971729C141A61 /* MUISpinnerTableViewCell.swift in Sources */,
+				60ECF91724B44E087213F612801D5B74 /* MUISpinnerViewController.swift in Sources */,
+				3B86377F7852214ABA4B72DD8B0566FA /* MUIStepper.swift in Sources */,
+				1525C1675D607274C54310707ABC6903 /* MUISwipeButton.swift in Sources */,
+				8924C949231922957B7CB00EBC0B0879 /* MUISwipeButtonAppearance.swift in Sources */,
+				801D6A40758C99008F2D834ED494B400 /* MUISwipeButtonSize.swift in Sources */,
+				F7D0A3490AFD399D6F526AA8173DEA4A /* MUISwipeButtonState.swift in Sources */,
+				3B6479B040D9B3DDA55332A7FA9A4275 /* MUISwipeButtonStyle.swift in Sources */,
+				8079772B618B045EE8D363A10CB579E3 /* MUISwipeButtonVariant.swift in Sources */,
+				BFA5E632EE8D24A0698A40225D3F3B7A /* MUISwitch.swift in Sources */,
+				C9DB406679E70EB2663D757B3F9D6B24 /* MUITextButton.swift in Sources */,
+				1FDAE085C09E1C328B2FB52ECABF5324 /* MUITextButtonStyle.swift in Sources */,
+				F3101D0B5987EB00E6278508EE9E6A18 /* MUITimeInput.swift in Sources */,
+				2B2EF28CECC39AFDB2239DB2EC84170B /* MUITimer.swift in Sources */,
+				E0B87DE7718D3E4E9DD7275B6C0D9C33 /* MUITokenScheme.swift in Sources */,
+				C275B7BA037986137D3588C30FAA9D21 /* MUIToolTipArrowView.swift in Sources */,
+				4F5C0859EEE1A524B2CC5F97E838FAF0 /* MUIToolTipSize.swift in Sources */,
+				5F10D2F539BB638539BC3FC2912230CD /* MUIToolTipStyle.swift in Sources */,
+				C73A2B45F03B5869BACD059954D8FCB5 /* MUIToolTipTapToDismissBehavior.swift in Sources */,
+				D91D7B7F1AE8D4123260BE9814A05C4E /* MUIToolTipViewController.swift in Sources */,
+				F9F13A654BF8B31FE3EEC6DC1DB94049 /* MUIToolTipViewProperties.swift in Sources */,
+				991F985DA5DC5D37A5C2A8D8B4A6A009 /* MUITrayActionButton.swift in Sources */,
+				C49FF13509F480DB16BF83B6069912CF /* MUITrayAnimator.swift in Sources */,
+				8426368110D95E61C929EBC39CA0BD49 /* MUITrayDraggableIndicatorView.swift in Sources */,
+				E9EEC96902AD3A5B67C76F3B47E5C038 /* MUITrayFooterView.swift in Sources */,
+				77D0C9DCDBBFAEC1792F70FB84A07F13 /* MUITrayHeaderView.swift in Sources */,
+				4A37C58D79E23106F519EAD0B11D9D72 /* MUITrayPresentationController.swift in Sources */,
+				78E8D7770B53232C136E51B870403C1D /* MUITraySelectionCellData.swift in Sources */,
+				92A7F97BCC669B430CC669B3584616E6 /* MUITraySelectionDataSource.swift in Sources */,
+				BECC01D1E8723D105C7D0CEC28D6833B /* MUITraySelectionTableViewCell.swift in Sources */,
+				4D21145C73B8A5A2180E2CE8A0083979 /* MUITraySelectionViewController.swift in Sources */,
+				C6C71762AFF7FDF5932430E1700FF7B5 /* MUITrayView.swift in Sources */,
+				6C1C3DC7FA6AC5BB70CC63117B500BAE /* MUITrayViewController.swift in Sources */,
+				DE4A137FAD861C70094CD5E48051EA2D /* MUITrayViewControllerPresentationDelegate.swift in Sources */,
+				3BC9EE4B2C70DC37F444119FE3FA5287 /* MUITrayViewControllerTransitioningDelegate.swift in Sources */,
+				AFB211DDA960A5B3F53C5C28401B8E4C /* MUITypography.swift in Sources */,
+				92A6B6F543D6DD53719C83EC2DB4F08F /* MUITypographyScheme.swift in Sources */,
+				25D7F466B8DDE47DE9CFE4F6F4AF12B0 /* MUIVerticalCircleView.swift in Sources */,
+				3F29D2D55EADB32677F164B69879EFB4 /* MUIVerticalProgressBottomView.swift in Sources */,
+				EBD6E179667BF46BF14A9F8477AC1504 /* MUIVerticalProgressDesign.swift in Sources */,
+				7A421BAB690FC2409E36872AB3D78314 /* MUIVerticalProgressView.swift in Sources */,
+				C56F2C1DD434DD6BC686B0FD2BC61A8B /* MUIVerticalStepView.swift in Sources */,
+				C8BB8E9429C2CB10FEA1AEA5BE7EB1C9 /* NSAttributedString.swift in Sources */,
+				E5AB84BD6823421486E5E84D5ED31543 /* NSMutableAttributedString.swift in Sources */,
+				55DE02A1A88030F902B8EEA26DAAEF91 /* String.swift in Sources */,
+				F1006574C17595169AF5EB250D2D384D /* ThumbView.swift in Sources */,
+				856A2D9689905C25C4F0D9806F66C21C /* UIButton.swift in Sources */,
+				D0F52E3FBA02BB8F0D0321646D7B7FA5 /* UIColor.swift in Sources */,
+				5CF108A859345C54172707B7C629B6A8 /* UIFont.swift in Sources */,
+				ECC2A52F331084D3E552A2D2AD98AE99 /* UIImage.swift in Sources */,
+				5A568DA5A67E2D1CAE1685ABBFC4EF8F /* UIImageView+Extension.swift in Sources */,
+				1A8C3AEE590A9EBE0652418F636E3308 /* UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C23BD5613F1DE0D3349734094E84A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MUIKit;
+			target = 24356E907F411418168F7772A18CFBC3 /* MUIKit */;
+			targetProxy = 00F57260B5F44440CBD0BB7B0DBE54F5 /* PBXContainerItemProxy */;
+		};
+		E05C7B3F27A1141DE67F3656A666DC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MUIKit-MUIKitResources";
+			target = D3555A626C54668E2D03BF9C2A50506B /* MUIKit-MUIKitResources */;
+			targetProxy = E11AAF648A2C676C43E66C33ABCA5E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EDB7CA1FFC0E9EA869D64EBB1FC2427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3939B4434DEC7CFEDCF15BF19E2C151 /* MUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MUIKit/MUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MUIKit/MUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MUIKit/MUIKit.modulemap";
+				PRODUCT_MODULE_NAME = MUIKit;
+				PRODUCT_NAME = MUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35DE36EE9CCA84F5C2E75F2F9E80F444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3939B4434DEC7CFEDCF15BF19E2C151 /* MUIKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MUIKit";
+				IBSC_MODULE = MUIKit;
+				INFOPLIST_FILE = "Target Support Files/MUIKit/ResourceBundle-MUIKitResources-MUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MUIKitResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AC0D86BCCEB4FEA0566507E4ED0E61B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516D3DF5AB93E96FDE7BE2590A985035 /* MUIKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MUIKit";
+				IBSC_MODULE = MUIKit;
+				INFOPLIST_FILE = "Target Support Files/MUIKit/ResourceBundle-MUIKitResources-MUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MUIKitResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE6CD1D8BF4D639070A3193A1904D174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E4274A016BABD7DD6AC2505CF013AC /* Pods-TrainSetup.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrainSetup/Pods-TrainSetup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrainSetup/Pods-TrainSetup.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C6FB7C94335ABADC436901C03E11FDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516D3DF5AB93E96FDE7BE2590A985035 /* MUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MUIKit/MUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MUIKit/MUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MUIKit/MUIKit.modulemap";
+				PRODUCT_MODULE_NAME = MUIKit;
+				PRODUCT_NAME = MUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F44FC0B3792BC19DEBC5E28250087CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C274061D90467057A6D1098C964D9D /* Pods-TrainSetup.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrainSetup/Pods-TrainSetup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrainSetup/Pods-TrainSetup.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4123E74E174683AD5234C4EF3B2696 /* Build configuration list for PBXNativeTarget "MUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FB7C94335ABADC436901C03E11FDAB /* Debug */,
+				0EDB7CA1FFC0E9EA869D64EBB1FC2427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9D10C00C754BFD6D3DCAE11ACA737B /* Build configuration list for PBXNativeTarget "Pods-TrainSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6CD1D8BF4D639070A3193A1904D174 /* Debug */,
+				F44FC0B3792BC19DEBC5E28250087CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC90905F73B9E8297217781DA3C89392 /* Build configuration list for PBXNativeTarget "MUIKit-MUIKitResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0D86BCCEB4FEA0566507E4ED0E61B8 /* Debug */,
+				35DE36EE9CCA84F5C2E75F2F9E80F444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

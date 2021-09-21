@@ -1,0 +1,6 @@
+framework module MUIKit {
+  umbrella header "MUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
