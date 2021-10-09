@@ -6,6 +6,7 @@ target 'TrainSetup' do
   use_frameworks!
 
   # Pods for TrainSetup
+  pod 'SnapKit', '~> 4.0'
   pod 'MUIKit', :path => '~/Documents/district-traveloka/packages/apps/ios/Traveloka/Modules/MUIKit'
 
 end

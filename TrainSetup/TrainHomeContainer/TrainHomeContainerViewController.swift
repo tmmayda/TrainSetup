@@ -31,7 +31,7 @@ class TrainHomeContainerViewController: UIViewController {
     
     var formContainerView: UIView = {
        let view = UIView()
-        view.backgroundColor = .clear
+        view.backgroundColor = .white
         view.layer.cornerRadius = 6.0
         view.layer.borderWidth = 3.0
         view.layer.borderColor = UIColor.yellow.cgColor
@@ -68,7 +68,7 @@ class TrainHomeContainerViewController: UIViewController {
         addRecentSearchContainerView()
         addMerchandisingContainerView()
         addMultipleViewToStackView(times: 1)
-        
+        /*
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             self.addMultipleViewToStackView(times: 1)
         }
@@ -87,6 +87,7 @@ class TrainHomeContainerViewController: UIViewController {
                 self.view.setNeedsLayout()
             }
         }
+         */
     }
     
     func setupView() {
@@ -125,14 +126,22 @@ class TrainHomeContainerViewController: UIViewController {
         NSLayoutConstraint.activate([
             formContainerView.topAnchor.constraint(equalTo: scrollContainerView.topAnchor, constant: 20),
             formContainerView.leadingAnchor.constraint(equalTo: scrollContainerView.leadingAnchor, constant: 20),
-            formContainerView.trailingAnchor.constraint(equalTo: scrollContainerView.trailingAnchor, constant: -20),
-            formContainerView.heightAnchor.constraint(equalToConstant: 370)
+            formContainerView.trailingAnchor.constraint(equalTo: scrollContainerView.trailingAnchor, constant: -20)
+            //formContainerView.heightAnchor.constraint(equalToConstant: 370)
         ])
         
         let newVC = TrainFormViewController()
         addChild(newVC)
         formContainerView.addSubview(newVC.view)
-        newVC.view.frame = formContainerView.frame
+        //newVC.view.frame = formContainerView.frame
+        newVC.view.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            newVC.view.topAnchor.constraint(equalTo: formContainerView.topAnchor, constant: 5),
+            newVC.view.leadingAnchor.constraint(equalTo: formContainerView.leadingAnchor, constant: 5),
+            newVC.view.trailingAnchor.constraint(equalTo: formContainerView.trailingAnchor, constant: -5),
+            newVC.view.bottomAnchor.constraint(equalTo: formContainerView.bottomAnchor, constant: -5)
+        
+        ])
         newVC.didMove(toParent: self)
     }
     
@@ -144,7 +153,6 @@ class TrainHomeContainerViewController: UIViewController {
             recentSearchContainerView.leadingAnchor.constraint(equalTo: scrollContainerView.leadingAnchor, constant: 20),
             recentSearchContainerView.trailingAnchor.constraint(equalTo: scrollContainerView.trailingAnchor, constant: -20),
             recentSearchContainerView.heightAnchor.constraint(equalToConstant: 150)
-            
         ])
     }
     

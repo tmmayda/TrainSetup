@@ -3,12 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D6233C726FAC304003179EB /* NewTrainFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6233C626FAC304003179EB /* NewTrainFormView.swift */; };
+		4D6233C926FADA86003179EB /* NewTrainHomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6233C826FADA86003179EB /* NewTrainHomeContainerViewController.swift */; };
+		4D76A3BC2711DB5300EDE582 /* TrainPassengerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76A3BB2711DB5300EDE582 /* TrainPassengerSelectionView.swift */; };
 		4D79A3A826F8A24700352731 /* TrainFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A3A726F8A24700352731 /* TrainFormViewController.swift */; };
 		4D79A3AA26F8D1CE00352731 /* TrainFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A3A926F8D1CE00352731 /* TrainFormView.swift */; };
+		4DAA67BB27116DE3001048AB /* TrainPassengerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA67BA27116DE3001048AB /* TrainPassengerTableViewCell.swift */; };
+		4DAA67BD271184F7001048AB /* TrainPassengerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA67BC271184F7001048AB /* TrainPassengerViewModel.swift */; };
 		4DD9025E26F877AF00179DDF /* TrainHomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9025D26F877AF00179DDF /* TrainHomeContainerViewController.swift */; };
 		4DD9FFB126F82DB100179DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9FFB026F82DB100179DDF /* AppDelegate.swift */; };
 		4DD9FFB326F82DB100179DDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9FFB226F82DB100179DDF /* SceneDelegate.swift */; };
@@ -16,13 +21,20 @@
 		4DD9FFB826F82DB100179DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9FFB626F82DB100179DDF /* Main.storyboard */; };
 		4DD9FFBA26F82DB100179DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9FFB926F82DB100179DDF /* Assets.xcassets */; };
 		4DD9FFBD26F82DB100179DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9FFBB26F82DB100179DDF /* LaunchScreen.storyboard */; };
+		4DF4BC7A2702ACFC0080E6D8 /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4BC792702ACFC0080E6D8 /* CalendarPickerViewController.swift */; };
+		4DFDB63226F9E33C00562379 /* TrainPassengerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDB63126F9E33C00562379 /* TrainPassengerSelectionViewController.swift */; };
 		6A51AE621C4FE6D74656EEDA /* Pods_TrainSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DE10903465451DB681ACE0 /* Pods_TrainSetup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		006B3C4F836D2777C28EB1EB /* Pods-TrainSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainSetup.release.xcconfig"; path = "Target Support Files/Pods-TrainSetup/Pods-TrainSetup.release.xcconfig"; sourceTree = "<group>"; };
+		4D6233C626FAC304003179EB /* NewTrainFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainFormView.swift; sourceTree = "<group>"; };
+		4D6233C826FADA86003179EB /* NewTrainHomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainHomeContainerViewController.swift; sourceTree = "<group>"; };
+		4D76A3BB2711DB5300EDE582 /* TrainPassengerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPassengerSelectionView.swift; sourceTree = "<group>"; };
 		4D79A3A726F8A24700352731 /* TrainFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainFormViewController.swift; sourceTree = "<group>"; };
 		4D79A3A926F8D1CE00352731 /* TrainFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainFormView.swift; sourceTree = "<group>"; };
+		4DAA67BA27116DE3001048AB /* TrainPassengerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPassengerTableViewCell.swift; sourceTree = "<group>"; };
+		4DAA67BC271184F7001048AB /* TrainPassengerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPassengerViewModel.swift; sourceTree = "<group>"; };
 		4DD9025D26F877AF00179DDF /* TrainHomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainHomeContainerViewController.swift; sourceTree = "<group>"; };
 		4DD9FFAD26F82DB100179DDF /* TrainSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD9FFB026F82DB100179DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +44,8 @@
 		4DD9FFB926F82DB100179DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD9FFBC26F82DB100179DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD9FFBE26F82DB100179DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF4BC792702ACFC0080E6D8 /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerViewController.swift; sourceTree = "<group>"; };
+		4DFDB63126F9E33C00562379 /* TrainPassengerSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPassengerSelectionViewController.swift; sourceTree = "<group>"; };
 		98DE10903465451DB681ACE0 /* Pods_TrainSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01A87E671CC7C0EE7AE1DFD /* Pods-TrainSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainSetup.debug.xcconfig"; path = "Target Support Files/Pods-TrainSetup/Pods-TrainSetup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,12 +62,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DAA67B927116CC6001048AB /* PassengerSelection */ = {
+			isa = PBXGroup;
+			children = (
+				4DFDB63126F9E33C00562379 /* TrainPassengerSelectionViewController.swift */,
+				4DAA67BC271184F7001048AB /* TrainPassengerViewModel.swift */,
+				4DAA67BA27116DE3001048AB /* TrainPassengerTableViewCell.swift */,
+				4D76A3BB2711DB5300EDE582 /* TrainPassengerSelectionView.swift */,
+			);
+			path = PassengerSelection;
+			sourceTree = "<group>";
+		};
+		4DAA67BE2711D8F2001048AB /* Calendar Picker */ = {
+			isa = PBXGroup;
+			children = (
+				4DF4BC792702ACFC0080E6D8 /* CalendarPickerViewController.swift */,
+			);
+			path = "Calendar Picker";
+			sourceTree = "<group>";
+		};
 		4DD9025C26F8778B00179DDF /* TrainHomeContainer */ = {
 			isa = PBXGroup;
 			children = (
 				4DD9025D26F877AF00179DDF /* TrainHomeContainerViewController.swift */,
+				4DAA67BE2711D8F2001048AB /* Calendar Picker */,
+				4DAA67B927116CC6001048AB /* PassengerSelection */,
+				4D6233C826FADA86003179EB /* NewTrainHomeContainerViewController.swift */,
 				4D79A3A726F8A24700352731 /* TrainFormViewController.swift */,
 				4D79A3A926F8D1CE00352731 /* TrainFormView.swift */,
+				4D6233C626FAC304003179EB /* NewTrainFormView.swift */,
 			);
 			path = TrainHomeContainer;
 			sourceTree = "<group>";
@@ -105,7 +142,6 @@
 				B01A87E671CC7C0EE7AE1DFD /* Pods-TrainSetup.debug.xcconfig */,
 				006B3C4F836D2777C28EB1EB /* Pods-TrainSetup.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,11 +260,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD9FFB526F82DB100179DDF /* ViewController.swift in Sources */,
+				4DFDB63226F9E33C00562379 /* TrainPassengerSelectionViewController.swift in Sources */,
 				4DD9FFB126F82DB100179DDF /* AppDelegate.swift in Sources */,
 				4DD9025E26F877AF00179DDF /* TrainHomeContainerViewController.swift in Sources */,
 				4D79A3A826F8A24700352731 /* TrainFormViewController.swift in Sources */,
+				4D6233C726FAC304003179EB /* NewTrainFormView.swift in Sources */,
+				4DAA67BB27116DE3001048AB /* TrainPassengerTableViewCell.swift in Sources */,
+				4DF4BC7A2702ACFC0080E6D8 /* CalendarPickerViewController.swift in Sources */,
+				4D6233C926FADA86003179EB /* NewTrainHomeContainerViewController.swift in Sources */,
 				4DD9FFB326F82DB100179DDF /* SceneDelegate.swift in Sources */,
+				4D76A3BC2711DB5300EDE582 /* TrainPassengerSelectionView.swift in Sources */,
 				4D79A3AA26F8D1CE00352731 /* TrainFormView.swift in Sources */,
+				4DAA67BD271184F7001048AB /* TrainPassengerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

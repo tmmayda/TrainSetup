@@ -1,8 +1,14 @@
 PODS:
   - MUIKit (0.1.4)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - MUIKit (from `~/Documents/district-traveloka/packages/apps/ios/Traveloka/Modules/MUIKit`)
+  - SnapKit (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   MUIKit:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MUIKit: 2afd537d0b3ab8f92e21ac212d36bb074f9e7b9c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 0cfcb182701cfa05dc08bb4d68afd7342da7a92f
+PODFILE CHECKSUM: 30f55443bb5acaca0ad08775be2f5f49ad57430e
 
 COCOAPODS: 1.11.0

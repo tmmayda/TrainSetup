@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-TrainSetup/Pods-TrainSetup-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/MUIKit/MUIKit.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

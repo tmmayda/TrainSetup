@@ -14,6 +14,7 @@ class TrainFormView: UIView {
        let view = UIStackView()
         view.axis = .vertical
         view.spacing = 16.0
+        view.distribution = .fill
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -68,6 +69,15 @@ class TrainFormView: UIView {
         return switchUI
     }()
     
+    var passengerInput: MUIInput = {
+       let input = MUIInput()
+        input.placeholder = "Num of passenger"
+        input.text = "1 Adults"
+        input.setLeftIcon(image: UIImage(systemName: "chair"))
+        input.translatesAutoresizingMaskIntoConstraints = false
+        return input
+    }()
+    
     private var searchButton: MUIButton = {
        let button = MUIButton()
         button.backgroundColor = .orange
@@ -108,6 +118,7 @@ class TrainFormView: UIView {
         formStackView.addArrangedSubview(departureDate)
         formStackView.addArrangedSubview(arrivalDate)
         arrivalDate.isHidden = !isRoundTrip
+        formStackView.addArrangedSubview(passengerInput)
         formStackView.addArrangedSubview(searchButton)
     }
     
