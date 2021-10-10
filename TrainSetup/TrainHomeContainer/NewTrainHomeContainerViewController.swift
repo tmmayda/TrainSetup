@@ -45,8 +45,11 @@ extension NewTrainHomeContainerViewController: UITextFieldDelegate {
         if textField == thisView.trainFormView.departureStation.textField {
             return true
         } else if textField == thisView.trainFormView.departureDate.textField {
-            let cvc = CalendarPickerViewController()
-            present(cvc, animated: true, completion: nil)
+            //let cvc = CalendarPickerViewController()
+            //present(cvc, animated: true, completion: nil)
+            
+            let vc = TrainCalendarPickerViewController()
+            present(vc, animated: true, completion: nil)
         } else if textField == thisView.trainFormView.passengerInput.textField {
             print("Did tapped passenger")
             let vm = TrainPassengerViewModel(maxPassengers: 5)

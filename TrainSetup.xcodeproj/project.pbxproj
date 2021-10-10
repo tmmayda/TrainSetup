@@ -21,6 +21,8 @@
 		4DD9FFB826F82DB100179DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9FFB626F82DB100179DDF /* Main.storyboard */; };
 		4DD9FFBA26F82DB100179DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9FFB926F82DB100179DDF /* Assets.xcassets */; };
 		4DD9FFBD26F82DB100179DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9FFBB26F82DB100179DDF /* LaunchScreen.storyboard */; };
+		4DE764DB271337DA004A4D97 /* TrainCalendarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE764DA271337DA004A4D97 /* TrainCalendarPickerView.swift */; };
+		4DE764DD27133F47004A4D97 /* TrainCalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE764DC27133F47004A4D97 /* TrainCalendarPickerViewController.swift */; };
 		4DF4BC7A2702ACFC0080E6D8 /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4BC792702ACFC0080E6D8 /* CalendarPickerViewController.swift */; };
 		4DFDB63226F9E33C00562379 /* TrainPassengerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDB63126F9E33C00562379 /* TrainPassengerSelectionViewController.swift */; };
 		6A51AE621C4FE6D74656EEDA /* Pods_TrainSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DE10903465451DB681ACE0 /* Pods_TrainSetup.framework */; };
@@ -44,6 +46,8 @@
 		4DD9FFB926F82DB100179DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD9FFBC26F82DB100179DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD9FFBE26F82DB100179DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE764DA271337DA004A4D97 /* TrainCalendarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCalendarPickerView.swift; sourceTree = "<group>"; };
+		4DE764DC27133F47004A4D97 /* TrainCalendarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCalendarPickerViewController.swift; sourceTree = "<group>"; };
 		4DF4BC792702ACFC0080E6D8 /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerViewController.swift; sourceTree = "<group>"; };
 		4DFDB63126F9E33C00562379 /* TrainPassengerSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPassengerSelectionViewController.swift; sourceTree = "<group>"; };
 		98DE10903465451DB681ACE0 /* Pods_TrainSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				4DF4BC792702ACFC0080E6D8 /* CalendarPickerViewController.swift */,
+				4DE764DA271337DA004A4D97 /* TrainCalendarPickerView.swift */,
+				4DE764DC27133F47004A4D97 /* TrainCalendarPickerViewController.swift */,
 			);
 			path = "Calendar Picker";
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 				4D79A3A826F8A24700352731 /* TrainFormViewController.swift in Sources */,
 				4D6233C726FAC304003179EB /* NewTrainFormView.swift in Sources */,
 				4DAA67BB27116DE3001048AB /* TrainPassengerTableViewCell.swift in Sources */,
+				4DE764DD27133F47004A4D97 /* TrainCalendarPickerViewController.swift in Sources */,
 				4DF4BC7A2702ACFC0080E6D8 /* CalendarPickerViewController.swift in Sources */,
 				4D6233C926FADA86003179EB /* NewTrainHomeContainerViewController.swift in Sources */,
+				4DE764DB271337DA004A4D97 /* TrainCalendarPickerView.swift in Sources */,
 				4DD9FFB326F82DB100179DDF /* SceneDelegate.swift in Sources */,
 				4D76A3BC2711DB5300EDE582 /* TrainPassengerSelectionView.swift in Sources */,
 				4D79A3AA26F8D1CE00352731 /* TrainFormView.swift in Sources */,
